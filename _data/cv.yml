@@ -85,31 +85,28 @@ cv:
           - Flow‑induced reconfiguration of aquatic vegetation (FSI modeling).
 
     Teaching:
-      - company: University of Toronto
-        position: Course Instructor – Combustion Processes (AER315)
-        location: Toronto, Canada
+      - name: Course Instructor – Combustion Processes (AER315)
+        location: University of Toronto, Canada
         start_date: 2020-09
         end_date: 2020-12
         summary: >
           Designed and delivered the undergraduate Combustion Processes course,
           including curriculum development, assessments, and remote teaching.
 
-      - company: University of Toronto & IIT Bombay
-        position: Teaching Assistant
-        location: Toronto & Mumbai
+      - name: Teaching Assistant
+        location: University of Toronto, Toronto & IIT Bombay, Mumbai
         start_date: 2017-07
         end_date: 2023-12
         highlights:
-          - Calculus I (ESC194)
-          - Calculus II (ESC195)
-          - Fundamentals of Combustion (AER1304)
-          - Thermodynamics (ME209)
-          - Mechanical Measurements (ME226)
+          - Calculus I (ESC194) - UofT
+          - Calculus II (ESC195) - UofT
+          - Fundamentals of Combustion (AER1304) - UofT
+          - Thermodynamics (ME209) - IITB
+          - Mechanical Measurements (ME226) - IITB
 
     Mentoring:
-      - company: University of Toronto
-        position: Research Supervision
-        location: Toronto, Canada
+      - name: Research Supervision
+        location: University of Toronto, Toronto, Canada
         start_date: 2025
         end_date: Present
         highlights:
