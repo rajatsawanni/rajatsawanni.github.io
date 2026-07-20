@@ -258,15 +258,3 @@ cv:
       - name: GRE
         date: 2018
         issuer: ETS
-
-    Projects:
-      - name: Contrails-in-a-lab Facility
-        summary: >
-          Laboratory-scale contrail generation system reproducing heterogeneous ice
-          nucleation from turbulent jet mixing at low pressure and low temperature.
-        highlights:
-          - Optical diagnostics for soot/ice microphysics.
-          - Facility design and operation.
-        start_date: 2020
-        end_date: 2025
-
