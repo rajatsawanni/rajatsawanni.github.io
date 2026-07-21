@@ -17,7 +17,6 @@ cv:
     countryCode: CA
 
   sections:
-
     Education:
       - institution: University of Toronto Institute for Aerospace Studies
         location: Toronto, Canada
@@ -92,7 +91,7 @@ cv:
         summary: >
           Designed and delivered the undergraduate Combustion Processes course, including curriculum development,
           assessments, and remote teaching.
-  
+
       - name: Teaching Assistant
         start_date: 2017-07
         end_date: 2023-12
