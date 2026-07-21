@@ -85,34 +85,34 @@ cv:
           - Flow‑induced reconfiguration of aquatic vegetation (FSI modeling).
 
     Teaching:
-    - name: Course Instructor – Combustion Processes (AER315)
-      start_date: 2020-09
-      end_date: 2020-12
-      location: University of Toronto, Canada
-      summary: >
-        Designed and delivered the undergraduate Combustion Processes course, including curriculum development,
-        assessments, and remote teaching.
+      - name: Course Instructor – Combustion Processes (AER315)
+        start_date: 2020-09
+        end_date: 2020-12
+        location: University of Toronto, Canada
+        summary: >
+          Designed and delivered the undergraduate Combustion Processes course, including curriculum development,
+          assessments, and remote teaching.
   
-    - name: Teaching Assistant
-      start_date: 2017-07
-      end_date: 2023-12
-      location: University of Toronto & IIT Bombay
-      highlights:
-        - Calculus I (ESC194) – UofT
-        - Calculus II (ESC195) – UofT
-        - Fundamentals of Combustion (AER1304) – UofT
-        - Thermodynamics (ME209) – IITB
-        - Mechanical Measurements (ME226) – IITB
+      - name: Teaching Assistant
+        start_date: 2017-07
+        end_date: 2023-12
+        location: University of Toronto & IIT Bombay
+        highlights:
+          - Calculus I (ESC194) – UofT
+          - Calculus II (ESC195) – UofT
+          - Fundamentals of Combustion (AER1304) – UofT
+          - Thermodynamics (ME209) – IITB
+          - Mechanical Measurements (ME226) – IITB
 
     Mentoring:
-    - name: Research Supervision
-      start_date: 2025
-      end_date: Present
-      location: University of Toronto, Canada
-      highlights:
-        - Supervised undergraduate and graduate researchers on soot/ice diagnostics, contrail microphysics,
-          and hydrogen‑enhanced combustion.
-        - Mentored students now pursuing graduate studies at Imperial College London and Princeton University.
+      - name: Research Supervision
+        start_date: 2025
+        end_date: Present
+        location: University of Toronto, Canada
+        highlights:
+          - Supervised undergraduate and graduate researchers on soot/ice diagnostics, contrail microphysics,
+            and hydrogen‑enhanced combustion.
+          - Mentored students now pursuing graduate studies at Imperial College London and Princeton University.
 
     Awards:
       - title: Best Presentation Award – Young Researcher
