@@ -35,12 +35,8 @@ It provides corrected, physically accurate estimates of **true flame temperature
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/RTE_BMC.png" title="Monte Carlo Ray Tracing methodology implemented for solving the RTE for an axisymmetric counterflow diffusion flame" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/RTE_BMC.png" caption="Monte Carlo Ray Tracing methodology implemented for solving the RTE for an axisymmetric counterflow diffusion flame" class="img-fluid rounded z-depth-1" %}
   </div>
-</div>
-
-<div class="caption">
-  Virtual photons are traced backward from the detector through absorbing and emitting media, reconstructing true temperature and soot volume fraction fields.
 </div>
 
 The solver uses:
@@ -74,26 +70,9 @@ Using this solver, several important findings were achieved:
 These results were published in the **Journal of Quantitative Spectroscopy and Radiative Transfer (2025)**.
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/RTE_output.jpg" title="Effects of finite and disparate spatial resolution: (a) and (c) show the measured effective extinction coefficient and radiance for flame case A and B, respectively, compared to their actual values; (b) and (d) illustrate the uncorrected and corrected temperatures for flame cases A and B, respectively, compared to the actual temperature." class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/RTE_output.jpg" caption="Effects of finite and disparate spatial resolution: (a) and (c) show the measured effective extinction coefficient and radiance for flame case A and B, respectively, compared to their actual values; (b) and (d) illustrate the uncorrected and corrected temperatures for flame cases A and B, respectively, compared to the actual temperature." class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
----
-
-## Image Gallery
-
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/RTE_BMC.png" title="Monte Carlo Ray Tracing methodology" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/RTE_output.jpg" title="Effects of finite and disparate spatial resolution in high pressure counterflow flames" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-
-<div class="caption">
-  Monte‑Carlo ray tracing reveals the deviation between raw optical signals and true local fields, enabling accurate reconstruction of soot and temperature distributions.
-</div>
-
 ---
 
 ## Applications
