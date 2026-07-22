@@ -6,10 +6,7 @@ nav: true
 permalink: /teachings/
 ---
 
-## Teaching Assistant Experience
-
-### University of Toronto & Indian Institute of Technology Bombay
-**Teaching Assistant** | *Jul 2017 – Dec 2023*
+*Jul 2017 – Dec 2023*
 
 Supported undergraduate instruction across mathematics, thermofluids, and combustion courses through tutorial delivery, assessment design and grading, course content management, and student mentoring. Responsibilities included leading problem-solving sessions, assisting with laboratory and computational exercises, preparing assessment materials, managing learning management systems, and providing office-hour support.
 
