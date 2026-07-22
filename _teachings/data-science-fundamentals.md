@@ -64,7 +64,7 @@ schedule:
     topic: Turbulent Combustion
     description: Introduction to turbulent flames and practical combustion systems.
     materials:
-      - name: Lecture Notes
+      - name: Handout 6 - Turbulent Combustion
         url: /assets/pdf/aer315/Handout_7.pdf
 
   - week: 10
