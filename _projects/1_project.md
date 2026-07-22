@@ -1,81 +1,130 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: Contrails‑in‑a‑Lab Facility
+description: A first-of-its-kind laboratory facility for studying contrail inception and growth
+img: assets/img/contrail_facility.png
 importance: 1
 category: work
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+### Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+The **Contrails‑in‑a‑Lab** project represents one of the world’s first controlled laboratory environments capable of reproducing **jet‑regime contrail formation**.  
+Developed at the University of Toronto Institute for Aerospace Studies (UTIAS) in collaboration with **Pratt & Whitney Canada** and **NSERC**, this facility recreates **upper‑troposphere / lower‑stratosphere (UTLS)** conditions—low pressure (~0.2 bar), cryogenic ambient temperatures (~210 K), and hot humid exhaust jets (~600 K).
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+This unique setup allows researchers to isolate and study the **multi‑phase physics** of contrail inception, ice nucleation, soot–ice interactions, and mixing‑driven supersaturation—directly addressing aviation’s **largest and most uncertain climate‑forcing component**.
+
+---
+
+## Facility Showcase
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/contrail_facility.png" title="Contrail Facility – Full Tunnel View" class="img-fluid rounded z-depth-1" %}
+  </div>
 </div>
+
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+  The contrail tunnel includes a central exhaust jet, controlled bypass streams, cryogenic ambient flow, and four optical access windows for high‑resolution multiphase diagnostics.
 </div>
+
+---
+
+## What the Facility Enables
+
+The facility supports controlled experiments with:
+
+- **Jet‑A1 and Sustainable Aviation Fuels (SAF)**
+- **Hydrogen‑based gas turbine model combustors**
+- **Inverted coflow diffusion flames**
+- **Mixed and unmixed bypass configurations**
+
+It provides a tractable platform for studying:
+
+- Ice nucleation probability  
+- Soot–ice interactions  
+- Supersaturation‑driven contrail formation  
+- Fuel‑dependent contrail characteristics  
+- Near‑field contrail microphysics  
+
+---
+
+## Diagnostics & Measurement Capabilities
+
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/contrail_output1.png" title="Instantaneous Contrail Snapshots" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
-```
 
-{% endraw %}
+<div class="caption">
+  High‑resolution elastic light scattering reveals soot (low intensity) and ice (high intensity) structures within the forming contrail.
+</div>
+
+The facility integrates advanced diagnostics, including:
+
+- **Laser Induced Incandescence (LII)**  
+- **2D Stokes Polarimetry**  
+- **Multi‑Angle Light Scattering (MALS)**  
+- **Wavelength‑Modulated TDLAS**  
+- **Shadowgraphy & diffraction‑based particle sizing**
+
+These tools enable resolved measurements of:
+
+- Ice number density  
+- Particle size distributions  
+- Soot concentration & maturity  
+- Water vapor fields  
+- Mixing‑driven supersaturation zones  
+
+---
+
+## Scientific Contributions
+
+Recent experiments revealed:
+
+- Contrail formation probability is governed primarily by **local supersaturation**, not soot number density.  
+- Scattering intensities increase with **water vapor content** more strongly than soot concentration.  
+- Ethylene vs. propane exhausts show distinct scattering behaviors tied to fuel‑dependent humidity levels.  
+- First resolved laboratory measurements of **near‑field contrail microphysics** under known boundary conditions.
+
+These results form benchmark datasets for:
+
+- Climate modeling  
+- Aviation emissions policy  
+- SAF and hydrogen fuel evaluation  
+- Next‑generation propulsion system design  
+
+---
+
+## Image Gallery
+
+<div class="row">
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/contrail_output1.png" title="Contrail Microphysics – Scattering Fields" class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/contrail_facility.png" title="Facility – Instrumentation Wall" class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/contrail_facility.png" title="Bypass & Ambient Flow Tunnel" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
+
+<div class="caption">
+  A flexible 3‑column layout showcasing the tunnel, diagnostics, and contrail microphysics.
+</div>
+
+---
+
+## Publications & References
+
+This project contributes to multiple manuscripts, including:
+
+- **Contrail inception and growth** (ISOC 2026, Kyoto)  
+- **Contrail microphysics under controlled laboratory conditions**  
+- **Fuel‑dependent contrail formation characteristics**  
+
+{% bibliography --cited %}
+
