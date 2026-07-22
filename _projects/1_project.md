@@ -26,8 +26,7 @@ This unique setup allows researchers to isolate and study the **multi‑phase ph
 </div>
 
 <div class="caption">
-  The contrail tunnel includes a central exhaust jet, controlled bypass streams, cryogenic ambient flow, and four optical access windows for high‑resolution multiphase diagnostics.
-</div>
+Image of the contrail facility depicting the tunnel, instrumentation and diagnostics required for generating high quality research data for the understanding and modeling of contrail cirrus. On the left, we show the inverted coflow soot generator, hydrogen-based, and Jet-A1/SAF-based gas turbine model combustors. On the right, we show the rendering of the contrail tunnel showing the central exhaust jet, bypass tube and ambient flow tunnel. Three optically accessible windows provide a unprecedented view of the contrail formation process while the fourth instrumentation wall houses temperature, pressure, humidity sensors and sampling probes.
 
 ---
 
@@ -59,7 +58,7 @@ It provides a tractable platform for studying:
 </div>
 
 <div class="caption">
-  High‑resolution elastic light scattering reveals soot (low intensity) and ice (high intensity) structures within the forming contrail.
+(a) Instantaneous snapshots of laboratory contrails, visualized through elastic light scattering from soot (low scattering) and ice (high scattering intensities) particles, (b) Comparison of mean scattering intensities and its numerical prediction for varying equivalence ratio exhausts of ethylene, (c) Probabilities of finding ice within the mixing lines of various exhaust jet contrails, highlighting that the probability of finding ice largely depends on the supersaturation, and not particle number densities, (d) Averaged scattering intensities of contrails from ethylene and propane exhausts containing varying concentrations of water vapor and soot.
 </div>
 
 The facility integrates advanced diagnostics, including:
