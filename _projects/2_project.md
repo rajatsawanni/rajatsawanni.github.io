@@ -1,81 +1,114 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
-importance: 2
+title: High‑Pressure Counterflow Burner Facility
+description: A specialized high‑pressure rig for soot formation studies
+img: assets/img/counterflow_facility.png
+importance: 1
 category: work
-giscus_comments: true
+related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+### Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+The **High‑Pressure Counterflow Burner Facility** is a custom‑designed experimental rig capable of generating stable counterflow diffusion flames from **1 to 8 bar**, enabling soot formation studies under engine‑relevant pressures.  
+Developed during my Ph.D. at UTIAS, this facility is one of only a few worldwide that can:
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+- Sustain stable counterflow flames at high pressure  
+- Perform **non‑intrusive soot diagnostics** in optically thick environments  
+- Resolve **pressure‑dependent sooting trends**  
+- Support premixed, partially premixed, and diffusion flame configurations  
+
+This platform was built to address long‑standing discrepancies in reported pressure scaling exponents for soot formation — a key uncertainty in combustion science.
+
+---
+
+## Facility Showcase
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/counterflow_facility.png" title="Images showing the counterflow burner facility housed inside the high pressure chamber at UTIAS, along with the developed diffuse light based modulated absorption-emission diagnostic. On the right, we show the rendering of the burner, consisting of counter-flowing nozzle assemblies, each equipped with its controlled stream of central and coflow jets and surrounded by a water-cooling nozzle. The positioning of the nozzle assemblies is controlled using X-Y and tip tilt stages, while their separation is controlled by a linear actuator. The flame can be remotely ignited using a glow plug which is controlled using a motorized arm. On the left, we show the ignited flames at atmospheric conditions and high pressures at varying fuel compositions." class="img-fluid rounded z-depth-1" %}
+  </div>
 </div>
+
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+  The burner is housed inside a high‑pressure chamber and equipped with counter‑flowing nozzle assemblies, water‑cooled housings, X‑Y positioning stages, and remote ignition via a motorized glow‑plug arm.
 </div>
+
+---
+
+## What the Facility Enables
+
+The burner supports controlled studies of:
+
+- **Soot formation (SF)**  
+- **Soot formation–oxidation (SFO)**  
+- **Non‑sooting diffusion flames**  
+- **Fuel‑dependent pressure scaling**  
+- **Chemical vs. physical soot growth mechanisms**  
+
+It allows systematic variation of:
+
+- Fuel composition (ethylene, propane, hydrogen blends)  
+- Strain rate  
+- Residence time  
+- Pressure  
+- Oxidizer composition  
+
+---
+
+## Diagnostics & Measurement Capabilities
+
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/counterflow_output1.png" title="(a) Reconciling the pressure scaling of sooting processes for counterflow diffusion flames designed at varying fuel compositions with constant residence times or mass flux, (b) The sooting structure of a counterflow diffusion flame and the effects of pressure on measured soot volume fraction and soot maturity." class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
-```
 
-{% endraw %}
+<div class="caption">
+  High‑pressure flames reveal soot volume fraction fields and soot maturity gradients, measured using MAE, LII, and thermophoretic sampling.
+</div>
+
+The facility integrates advanced soot diagnostics:
+
+- **Diffuse‑light Modulated Absorption–Emission (MAE)**  
+- **Laser Induced Incandescence (LII)**  
+- **Thermophoretic sampling + TEM/Raman**  
+- **Two‑angle light scattering**  
+
+These tools enable resolved measurements of:
+
+- Soot concentration  
+- Primary particle diameter  
+- Soot maturity (nascent vs. mature)  
+- Local temperature fields  
+- Chemical sooting structure  
+
+---
+
+## Scientific Contributions
+
+This facility produced several key findings:
+
+- Disparate pressure scaling trends from past studies collapse into a **single universal curve** when soot production is normalized by residence time or mass flux.  
+- First measurements of **soot maturity** in high‑pressure counterflow flames.  
+- Identification of pressure‑driven shifts in soot chemical pathways (acetylene and PAH dominance).  
+- High‑resolution soot maps published in **Combustion and Flame** and **Proceedings of the Combustion Institute**.
+
+These results help reconcile long‑standing inconsistencies in soot pressure scaling and provide benchmark datasets for:
+
+- Turbulent combustion modeling  
+- Alternative fuel chemistry  
+- Hydrogen‑blended fuel studies  
+- Soot formation theory  
+
+---
+
+## Publications & References
+
+This project contributes to:
+
+- **ISOC 2024** – High‑pressure soot formation  
+- **Combustion and Flame (2026)** – Soot maturity measurements  
+- **Proceedings of the Combustion Institute (2024)** – Pressure scaling reconciliation  
+
+{% bibliography --cited %}
