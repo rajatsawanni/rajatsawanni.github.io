@@ -98,30 +98,10 @@ These results form benchmark datasets for:
 
 ---
 
-## Image Gallery
-
-<div class="row">
-  <div class="col-sm mt-2 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/contrail_output1.png" title="Contrail Microphysics – Scattering Fields" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm mt-2 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/contrail_facility.png" title="Facility – Instrumentation Wall" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-
-<div class="caption">
-  A flexible 3‑column layout showcasing the tunnel, diagnostics, and contrail microphysics.
-</div>
-
----
-
 ## Publications & References
 
 This project contributes to multiple manuscripts, including:
 
-- **Contrail inception and growth** (ISOC 2026, Kyoto)  
-- **Contrail microphysics under controlled laboratory conditions**  
-- **Fuel‑dependent contrail formation characteristics**  
-
-{% bibliography --cited %}
+- {Sawanni, R.}*, Roy, A.*, Rajan, Y., Mayigue, C. C., Taddesse, T., Jahncke, I., Chaudhuri, S., Groth, C. P. T., Gulder, O. L. (2026). A contrail-in-a-lab facility to study the inception and development of contrails. \emph{Bulletin of American Meteorological Society}. (in preparation)  
+- Roy, A.*, Sawanni, R.*, Rajan, Y., Mayigue, C. C., Taddesse, T., Jahncke, I., Chaudhuri, S., Groth, C. P. T., Gulder, O. L. Effects of fuel and soot characteristics on the inception and development of contrails. \emph{Proceedings of the Combustion Institute}. (accepted)
 
