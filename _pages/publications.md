@@ -13,8 +13,14 @@ nav_order: 2
 
 {% include bib_search.liquid %}
 
+## Articles
+
 <div class="publications">
+{% bibliography --query @*[keywords *= article] %}
+</div>
 
-{% bibliography %}
+## Talks
 
+<div class="publications">
+{% bibliography --query @*[keywords *= talk] %}
 </div>
