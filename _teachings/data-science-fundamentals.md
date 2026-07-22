@@ -1,6 +1,6 @@
 ---
 layout: course
-title: Combustion Processes
+title: Course Instructor - Combustion Processes
 description: Study of combustion thermodynamics, chemical kinetics, flame propagation, combustion applications, and environmental aspects of combustion with emphasis on aerospace propulsion systems.
 instructor: Rajat Sawanni
 year: 2020
