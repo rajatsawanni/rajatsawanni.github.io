@@ -1,80 +1,115 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
-category: fun
+title: Backward Monte‑Carlo Ray Tracing for Radiative Transfer
+description: A statistical photon-tracking solver for accurate radiative transfer in harsh combustion environments
+img: assets/img/RTE_BMC.png
+importance: 1
+category: work
+related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+### Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+The **Backward Monte‑Carlo Ray‑Tracing Radiative Transfer Solver** is a custom numerical tool developed to solve the full **Radiative Transfer Equation (RTE)** in complex, high‑pressure, soot‑laden combustion environments.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Traditional optical diagnostics (extinction, emission, two‑color pyrometry) often fail in high‑pressure flames because:
+
+- Soot clouds become **optically thick**  
+- **Self‑absorption** distorts measured signals  
+- **Multiple scattering** alters apparent temperature and soot volume fraction  
+- Line‑of‑sight measurements cannot recover local fields  
+
+This solver overcomes these limitations by statistically tracing **virtual photons backward** from the detector through the flame, accounting for:
+
+- Absorption  
+- Emission  
+- In‑scattering  
+- Multi‑particle interactions  
+- Spatially varying soot properties  
+
+It provides corrected, physically accurate estimates of **true flame temperature** and **soot volume fraction**, even in harsh optical environments.
+
+---
+
+## Methodology
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/RTE_BMC.png" title="Monte Carlo Ray Tracing methodology implemented for solving the RTE for an axisymmetric counterflow diffusion flame" class="img-fluid rounded z-depth-1" %}
+  </div>
 </div>
+
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+  Virtual photons are traced backward from the detector through absorbing and emitting media, reconstructing true temperature and soot volume fraction fields.
 </div>
+
+The solver uses:
+
+- **Backward photon tracking**  
+  Photons are launched from the detector and traced through the flame volume.
+
+- **Stochastic sampling of optical paths**  
+  Each photon interacts with soot particles according to local absorption/emission coefficients.
+
+- **Full RTE solution**  
+  Incorporates absorption, emission, and scattering without simplifying assumptions.
+
+- **Correction of raw optical signals**  
+  Converts measured line‑of‑sight intensities into local temperature and soot fields.
+
+This method is particularly effective in **high‑pressure counterflow diffusion flames**, where optical thickness makes conventional diagnostics unreliable.
+
+---
+
+## Key Scientific Contributions
+
+Using this solver, several important findings were achieved:
+
+- Raw optical measurements **significantly underestimate** true flame temperature in optically thick regions.  
+- Soot volume fraction retrieved from extinction/emission alone can be **off by more than an order of magnitude**.  
+- Multi‑particle in‑scattering plays a major role at pressures above 4–5 bar.  
+- Corrected fields reveal **true chemical and thermal structure** of high‑pressure flames.  
+- The solver enables validation of soot models under engine‑relevant conditions.
+
+These results were published in the **Journal of Quantitative Spectroscopy and Radiative Transfer (2025)**.
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/RTE_output.jpg" title="Effects of finite and disparate spatial resolution: (a) and (c) show the measured effective extinction coefficient and radiance for flame case A and B, respectively, compared to their actual values; (b) and (d) illustrate the uncorrected and corrected temperatures for flame cases A and B, respectively, compared to the actual temperature." class="img-fluid rounded z-depth-1" %}
+  </div>
 </div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+---
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## Image Gallery
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
 <div class="row justify-content-sm-center">
   <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid path="assets/img/RTE_BMC.png" title="Monte Carlo Ray Tracing methodology" class="img-fluid rounded z-depth-1" %}
   </div>
   <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid path="assets/img/RTE_output.jpg" title="Effects of finite and disparate spatial resolution in high pressure counterflow flames" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
-```
 
-{% endraw %}
+<div class="caption">
+  Monte‑Carlo ray tracing reveals the deviation between raw optical signals and true local fields, enabling accurate reconstruction of soot and temperature distributions.
+</div>
+
+---
+
+## Applications
+
+This solver is directly applicable to:
+
+- **High‑pressure combustion diagnostics**  
+- **Soot‑laden flames with strong self‑absorption**  
+- **Validation of optical diagnostics (MAE, LII, emission)**  
+- **CFD model validation**  
+- **Alternative fuel studies (SAF, hydrogen blends)**  
+
+It provides a robust numerical foundation for interpreting optical measurements in extreme environments.
+
+---
+
+## Publications & References
+
+Sawanni, R., Güllder, Ö. L. (2025). Retrieval of temperature and extinction coefficient from modulated absorption emission technique: Effects of practical light collection, self-absorption, in-scattering, and finite spatial resolution. Journal of Quantitative Spectroscopy and Radiative Transfer, 347, 109662.
