@@ -21,7 +21,7 @@ This unique setup allows researchers to isolate and study the **multi‑phase ph
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/contrail_facility.png" title="Contrail Facility – Full Tunnel View" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/contrail_output.png" title="Contrail Facility – Full Tunnel View" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 
