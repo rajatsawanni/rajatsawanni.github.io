@@ -101,14 +101,11 @@ These results form benchmark datasets for:
 ## Image Gallery
 
 <div class="row">
-  <div class="col-sm mt-3 mt-md-0">
+  <div class="col-sm mt-2 mt-md-0">
     {% include figure.liquid loading="eager" path="assets/img/contrail_output1.png" title="Contrail Microphysics – Scattering Fields" class="img-fluid rounded z-depth-1" %}
   </div>
-  <div class="col-sm mt-3 mt-md-0">
+  <div class="col-sm mt-2 mt-md-0">
     {% include figure.liquid loading="eager" path="assets/img/contrail_facility.png" title="Facility – Instrumentation Wall" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/contrail_facility.png" title="Bypass & Ambient Flow Tunnel" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 
