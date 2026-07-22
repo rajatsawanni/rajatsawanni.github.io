@@ -60,7 +60,7 @@ It allows systematic variation of:
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/counterflow_output1.png" title="(a) Reconciling the pressure scaling of sooting processes for counterflow diffusion flames designed at varying fuel compositions with constant residence times or mass flux, (b) The sooting structure of a counterflow diffusion flame and the effects of pressure on measured soot volume fraction and soot maturity." class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/counterflow_output.png" title="(a) Reconciling the pressure scaling of sooting processes for counterflow diffusion flames designed at varying fuel compositions with constant residence times or mass flux, (b) The sooting structure of a counterflow diffusion flame and the effects of pressure on measured soot volume fraction and soot maturity." class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 
