@@ -6,7 +6,7 @@ instructor: Rajat Sawanni
 year: 2020
 term: Fall
 location: University of Toronto Institute for Aerospace Studies (UTIAS)
-time: Lectures: Mondays 12:00-14:00, Thursdays 11:00-12:00
+time: "Lectures: Mondays 12:00-14:00, Thursdays 11:00-12:00"
 course_id: aer-315-combustion-processes
 
 schedule:
