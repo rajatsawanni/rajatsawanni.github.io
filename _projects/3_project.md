@@ -1,81 +1,89 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://www.wikipedia.org/
-importance: 3
+title: Graph-Based Chemical Reaction Network Analysis
+description: A graph-theoretic toolkit for analyzing chemical pathways in reacting flows
+img: assets/img/networks_output_c2.jpeg
+importance: 1
 category: work
+related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+### Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+The **Graph-Based Chemical Reaction Network Analysis Toolkit** is an in-house numerical framework that represents complex chemical mechanisms as **directed graphs**, enabling new insights into reaction topology, dominant pathways, and species influence in combustion environments.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+This toolkit was developed to address a central challenge in combustion chemistry:  
+large reaction mechanisms contain **hundreds of species and thousands of reactions**, making it difficult to identify which pathways actually govern pollutant formation — especially soot.
+
+By converting chemistry into graph structures, the toolkit allows:
+
+- Extraction of **dominant carbon flux pathways**  
+- Identification of **high‑influence species**  
+- Visualization of **network evolution across pressure, strain rate, and flame location**  
+- Reduction of chemical mechanisms while preserving predictive accuracy  
+
+---
+
+## Methodology
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/networks_output.png" title="(a) Representation and creation of local reaction chemistry as an element flux graph, highlighting the dominant pathways that carry element flux between two species. (b) The evolution of dominant pathways across flame locations and pressure in soot forming counterflow diffusion flames, (c) The evolution of influence of a specie, measured in terms of total normalized flux transferred through the specie that reach a certain node, (d) Evolution of the soot chemical reaction network topology as it evolves through the soot production zone (from right to left), highlighting the pre-emptive organization of carbon delivery network before carbon flux increases." class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
-```
 
-{% endraw %}
+<div class="caption">
+  Reaction chemistry is represented as directed graphs, where nodes are species and edges carry carbon flux. Dominant pathways and species influence evolve across flame zones and pressure.
+</div>
+
+The toolkit constructs:
+
+- **Element flux graphs**  
+  Species are nodes; edges carry carbon flux between them.
+
+- **Dominant pathway maps**  
+  Extracts the largest flux-carrying path from fuel → soot precursors → soot.
+
+- **Influence metrics**  
+  Quantifies how much carbon flux passes through each species.
+
+- **Local network evolution**  
+  Tracks how the soot network organizes itself before soot actually forms.
+
+These capabilities reveal hidden structure in chemical mechanisms that traditional sensitivity analysis cannot capture.
+
+---
+
+## Key Scientific Insights
+
+Using this toolkit, several important findings were uncovered:
+
+- **Acetylene and PAHs** emerge as dominant soot precursors, with influence increasing strongly with pressure.  
+- The soot network **pre-organizes itself** before measurable soot appears — a previously unreported phenomenon.  
+- Different starting nodes (fuel, intermediates, PAHs) converge to shared pathways, revealing **network-level robustness**.  
+- Pressure alters not only soot quantity but also **network topology**, changing how carbon is routed through the mechanism.
+
+These insights were applied to high-pressure counterflow diffusion flames and validated using experimental soot measurements.
+
+---
+
+## Applications
+
+This toolkit is directly applicable to:
+
+- **Soot formation studies**  
+- **Alternative fuel chemistry (SAF, hydrogen blends)**  
+- **Mechanism reduction for CFD simulations**  
+- **Pollutant formation pathway analysis**  
+- **High-pressure combustion environments**
+
+It provides a new paradigm for understanding complex chemistry in reacting flows.
+
+---
+
+## Publications & References
+
+- Sawanni, R., and Gulder, O. L. Effects of pressure on the chemical sooting structure of equi-diffusive counterflow diffusion flame. Proceedings of the Combustion Institute. (accepted)
+- Sawanni, R., and Gulder, O. L. (2026). Influence of pressure on the structure and chemistry of soot formation counterflow diffusion flame. Combustion and Flame. 286, 114873.
+
+{% bibliography --cited %}
