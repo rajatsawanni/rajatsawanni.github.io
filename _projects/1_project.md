@@ -101,8 +101,8 @@ These results form benchmark datasets for:
 
 This project contributes to multiple manuscripts, including:
 
-- Sawanni, R.*, Roy, A.*, Rajan, Y., Mayigue, C. C., Taddesse, T., Jahncke, I., Chaudhuri, S., Groth, C. P. T., Gulder, O. L. (2026). A contrail-in-a-lab facility to study the inception and development of contrails. \emph{Bulletin of American Meteorological Society}. (in preparation)  
-- Roy, A.*, Sawanni, R.*, Rajan, Y., Mayigue, C. C., Taddesse, T., Jahncke, I., Chaudhuri, S., Groth, C. P. T., Gulder, O. L. Effects of fuel and soot characteristics on the inception and development of contrails. \emph{Proceedings of the Combustion Institute}. (accepted)
+- Sawanni, R.\*, Roy, A.\*, Rajan, Y., Mayigue, C. C., Taddesse, T., Jahncke, I., Chaudhuri, S., Groth, C. P. T., Gulder, O. L. (2026). A contrail-in-a-lab facility to study the inception and development of contrails. Bulletin of American Meteorological Society. (in preparation)  
+- Roy, A.\*, Sawanni, R.\*, Rajan, Y., Mayigue, C. C., Taddesse, T., Jahncke, I., Chaudhuri, S., Groth, C. P. T., Gulder, O. L. Effects of fuel and soot characteristics on the inception and development of contrails. Proceedings of the Combustion Institute. (accepted)
 
-* equal contributions
+\* equal contributions
 
