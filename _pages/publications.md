@@ -16,11 +16,11 @@ nav_order: 2
 ## Articles
 
 <div class="publications">
-{% bibliography --query @*[keywords *= article] %}
+{% bibliography --query @*[keyword=article] %}
 </div>
 
 ## Talks
 
 <div class="publications">
-{% bibliography --query @*[keywords *= talk] %}
+{% bibliography --query @*[keyword=talk] %}
 </div>
