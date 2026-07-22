@@ -28,12 +28,8 @@ By converting chemistry into graph structures, the toolkit allows:
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/networks_output.png" title="(a) Representation and creation of local reaction chemistry as an element flux graph, highlighting the dominant pathways that carry element flux between two species. (b) The evolution of dominant pathways across flame locations and pressure in soot forming counterflow diffusion flames, (c) The evolution of influence of a specie, measured in terms of total normalized flux transferred through the specie that reach a certain node, (d) Evolution of the soot chemical reaction network topology as it evolves through the soot production zone (from right to left), highlighting the pre-emptive organization of carbon delivery network before carbon flux increases." class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/networks_output.png" caption="(a) Representation and creation of local reaction chemistry as an element flux graph, highlighting the dominant pathways that carry element flux between two species. (b) The evolution of dominant pathways across flame locations and pressure in soot forming counterflow diffusion flames, (c) The evolution of influence of a specie, measured in terms of total normalized flux transferred through the specie that reach a certain node, (d) Evolution of the soot chemical reaction network topology as it evolves through the soot production zone (from right to left), highlighting the pre-emptive organization of carbon delivery network before carbon flux increases." class="img-fluid rounded z-depth-1" %}
   </div>
-</div>
-
-<div class="caption">
-  Reaction chemistry is represented as directed graphs, where nodes are species and edges carry carbon flux. Dominant pathways and species influence evolve across flame zones and pressure.
 </div>
 
 The toolkit constructs:
@@ -85,5 +81,3 @@ It provides a new paradigm for understanding complex chemistry in reacting flows
 
 - Sawanni, R., and Gulder, O. L. Effects of pressure on the chemical sooting structure of equi-diffusive counterflow diffusion flame. Proceedings of the Combustion Institute. (accepted)
 - Sawanni, R., and Gulder, O. L. (2026). Influence of pressure on the structure and chemistry of soot formation counterflow diffusion flame. Combustion and Flame. 286, 114873.
-
-{% bibliography --cited %}
