@@ -53,13 +53,10 @@ It provides a tractable platform for studying:
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/contrail_facility.png" title="Instantaneous Contrail Snapshots and scaling of ice scattering from varying exhaust conditions" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/contrail_facility.png" caption="(a) Instantaneous snapshots of laboratory contrails, visualized through elastic light scattering from soot (low scattering) and ice (high scattering intensities) particles, (b) Comparison of mean scattering intensities and its numerical prediction for varying equivalence ratio exhausts of ethylene, (c) Probabilities of finding ice within the mixing lines of various exhaust jet contrails, highlighting that the probability of finding ice largely depends on the supersaturation, and not particle number densities, (d) Averaged scattering intensities of contrails from ethylene and propane exhausts containing varying concentrations of water vapor and soot." class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 
-<div class="caption">
-(a) Instantaneous snapshots of laboratory contrails, visualized through elastic light scattering from soot (low scattering) and ice (high scattering intensities) particles, (b) Comparison of mean scattering intensities and its numerical prediction for varying equivalence ratio exhausts of ethylene, (c) Probabilities of finding ice within the mixing lines of various exhaust jet contrails, highlighting that the probability of finding ice largely depends on the supersaturation, and not particle number densities, (d) Averaged scattering intensities of contrails from ethylene and propane exhausts containing varying concentrations of water vapor and soot.
-</div>
 
 The facility integrates advanced diagnostics, including:
 
