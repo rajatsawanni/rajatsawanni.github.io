@@ -13,11 +13,11 @@ related_publications: true
 The **Contrails‑in‑a‑Lab** project represents one of the world’s first controlled laboratory environments capable of reproducing **jet‑regime contrail formation**.  
 Developed at the University of Toronto Institute for Aerospace Studies (UTIAS) in collaboration with **Pratt & Whitney Canada** and **NSERC**, this facility recreates **upper‑troposphere / lower‑stratosphere (UTLS)** conditions—low pressure (~0.2 bar), cryogenic ambient temperatures (~210 K), and hot humid exhaust jets (~600 K).
 
-This unique setup allows researchers to isolate and study the **multi‑phase physics** of contrail inception, ice nucleation, soot–ice interactions, and mixing‑driven supersaturation—directly addressing aviation’s **largest and most uncertain climate‑forcing component**.
+This unique setup allows us to isolate and study the **multi‑phase physics** of contrail inception, ice nucleation, soot–ice interactions, and mixing‑driven supersaturation, thereby directly addressing aviation’s **largest and most uncertain climate‑forcing component**.
 
 ---
 
-## Facility Showcase
+## Facility ko
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
