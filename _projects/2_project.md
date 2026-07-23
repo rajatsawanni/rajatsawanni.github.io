@@ -10,7 +10,7 @@ related_publications: true
 
 ### Overview
 
-The **High‑Pressure Counterflow Burner Facility** is a custom‑designed experimental rig capable of generating stable counterflow diffusion flames from **1 to 8 bar**, enabling soot formation studies under engine‑relevant pressures.  
+The **High‑Pressure Counterflow Burner Facility** is a custom‑designed experimental rig capable of generating stable counterflow diffusion flames from **1 to 8 bar**, enabling soot formation studies under high pressures.  
 Developed during my Ph.D. at UTIAS, this facility is one of only a few worldwide that can:
 
 - Sustain stable counterflow flames at high pressure  
@@ -18,7 +18,7 @@ Developed during my Ph.D. at UTIAS, this facility is one of only a few worldwide
 - Resolve **pressure‑dependent sooting trends**  
 - Support premixed, partially premixed, and diffusion flame configurations  
 
-This platform was built to address long‑standing discrepancies in reported pressure scaling exponents for soot formation — a key uncertainty in combustion science.
+This platform was built to address long‑standing discrepancies in reported pressure scaling exponents for soot production rates.
 
 ---
 
@@ -53,28 +53,13 @@ It allows systematic variation of:
 
 ---
 
-## Diagnostics & Measurement Capabilities
-
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
     {% include figure.liquid loading="eager" path="assets/img/counterflow_output.png" caption="(a) Reconciling the pressure scaling of sooting processes for counterflow diffusion flames designed at varying fuel compositions with constant residence times or mass flux, (b) The sooting structure of a counterflow diffusion flame and the effects of pressure on measured soot volume fraction and soot maturity." class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 
-The facility integrates advanced soot diagnostics:
-
-- **Diffuse‑light Modulated Absorption–Emission (MAE)**  
-- **Laser Induced Incandescence (LII)**  
-- **Thermophoretic sampling + TEM/Raman**  
-- **Two‑angle light scattering**  
-
-These tools enable resolved measurements of:
-
-- Soot concentration  
-- Primary particle diameter  
-- Soot maturity (nascent vs. mature)  
-- Local temperature fields  
-- Chemical sooting structure  
+The facility integrates diffuse light based modulated absorption emission imaging at multiple wavelengths to enable resolved measurements of soot concentrations, maturity, and local temperature fields. The flow and chemistry is largely reproduced using 2D and 1D detailed chemistry and flow solvers (Open source tools) which then provide supplementary data for the understanding of pressure effects on sooting processes.
 
 ---
 
