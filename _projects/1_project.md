@@ -86,7 +86,7 @@ Recent experiments revealed:
 - Contrail formation probability is governed primarily by **local supersaturation**, not soot number density.  
 - Scattering intensities increase with **water vapor content** more strongly than soot concentration.  
 - Ethylene vs. propane exhausts show distinct scattering behaviors tied to fuel‑dependent humidity levels.  
-- First resolved laboratory measurements of **near‑field contrail microphysics** under known boundary conditions.
+- First resolved laboratory measurements of **near‑field contrail inception** under known boundary conditions.
 
 These results form benchmark datasets for:
 
