@@ -87,6 +87,4 @@ This project contributes to:
 
 - Sawanni, R., and Gulder, O. L. (2024). A tractable methodology for assessing the pressure scaling of sooting processes in a counterflow diffusion flame from 1 to 6 bar. Proceedings of the Combustion Institute, 40(1-4), 105745.
 - Sawanni, R., and Gulder, O. L. (2026). Influence of pressure on the structure and chemistry of soot formation counterflow diffusion flame. Combustion and Flame. 286, 114873.
-- Sawanni, R., and Gulder, O. L. Effects of pressure on the chemical sooting structure of equi-diffusive counterflow diffusion flame. Proceedings of the Combustion Institute. (acceptedZ
-
-{% bibliography --cited %}
+- Sawanni, R., and Gulder, O. L. Effects of pressure on the chemical sooting structure of equi-diffusive counterflow diffusion flame. Proceedings of the Combustion Institute. (accepted)
