@@ -5,7 +5,7 @@ description: A first-of-its-kind laboratory facility for studying contrail incep
 img: assets/img/contrail_facility.png
 importance: 1
 category: work
-related_publications: true
+related_publications: false
 ---
 
 ### Overview
