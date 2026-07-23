@@ -5,7 +5,7 @@ description: A graph-theoretic toolkit for analyzing chemical pathways in reacti
 img: assets/img/networks_output.png
 importance: 1
 category: work
-related_publications: true
+related_publications: false
 ---
 
 ### Overview
