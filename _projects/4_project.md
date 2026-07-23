@@ -5,7 +5,7 @@ description: A statistical photon-tracking solver for accurate radiative transfe
 img: assets/img/RTE_BMC.png
 importance: 1
 category: work
-related_publications: true
+related_publications: false
 ---
 
 ### Overview
