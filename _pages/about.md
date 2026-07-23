@@ -27,7 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a Postdoctoral Fellow at the Institute for Aerospace Studies, University of Toronto. My research sits at the intersection of sustainable aviation technologies, advanced optical diagnostics, and high-pressure combustion systems. Currently, I contribute to major interdisciplinary projects in collaboration with industry partners like Pratt & Whitney Canada and NordSpace to mitigate aviation climate impacts.
+I am a Postdoctoral Fellow at the Institute for Aerospace Studies, University of Toronto. My research sits at the intersection of sustainable aviation technologies, non-CO2 emissions, advanced optical diagnostics, and high-pressure combustion systems. Currently, I contribute to major interdisciplinary projects in collaboration with industry partners like Pratt & Whitney Canada and NordSpace to mitigate aviation's climate impact.
 
 I earned my Ph.D. in Aerospace Engineering from the University of Toronto in 2025, where my doctoral work focused on the experimental and numerical study of sooting processes at high pressure. Prior to this, I completed my dual Bachelor and Master of Technology degrees in Mechanical Engineering at the Indian Institute of Technology, Bombay.
 
