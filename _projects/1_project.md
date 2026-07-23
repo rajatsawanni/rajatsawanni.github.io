@@ -17,16 +17,13 @@ This unique setup allows us to isolate and study the **multi‑phase physics** o
 
 ---
 
-## Facility ko
+## Facility
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/contrail_output.png" title="Contrail Facility – Full Tunnel View" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/contrail_output.png" caption="Image of the contrail facility depicting the tunnel, instrumentation and diagnostics required for generating high quality research data for the understanding and modeling of contrail cirrus. On the left, we show the inverted coflow soot generator, hydrogen-based, and Jet-A1/SAF-based gas turbine model combustors. On the right, we show the rendering of the contrail tunnel showing the central exhaust jet, bypass tube and ambient flow tunnel. Three optically accessible windows provide a unprecedented view of the contrail formation process while the fourth instrumentation wall houses temperature, pressure, humidity sensors and sampling probes." class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
-
-<div class="caption">
-Image of the contrail facility depicting the tunnel, instrumentation and diagnostics required for generating high quality research data for the understanding and modeling of contrail cirrus. On the left, we show the inverted coflow soot generator, hydrogen-based, and Jet-A1/SAF-based gas turbine model combustors. On the right, we show the rendering of the contrail tunnel showing the central exhaust jet, bypass tube and ambient flow tunnel. Three optically accessible windows provide a unprecedented view of the contrail formation process while the fourth instrumentation wall houses temperature, pressure, humidity sensors and sampling probes.
 
 ---
 
