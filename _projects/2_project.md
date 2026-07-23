@@ -5,7 +5,7 @@ description: A specialized high‑pressure rig for soot formation studies
 img: assets/img/counterflow_facility.png
 importance: 1
 category: work
-related_publications: true
+related_publications: false
 ---
 
 ### Overview
