@@ -54,12 +54,12 @@ These capabilities reveal hidden structure in chemical mechanisms that tradition
 
 Using this toolkit, several important findings were uncovered:
 
-- **Acetylene and PAHs** emerge as dominant soot precursors, with influence increasing strongly with pressure.  
+- **Acetylene** emerge as dominant soot precursors, with influence increasing strongly with pressure.  
 - The soot network **pre-organizes itself** before measurable soot appears — a previously unreported phenomenon.  
 - Different starting nodes (fuel, intermediates, PAHs) converge to shared pathways, revealing **network-level robustness**.  
 - Pressure alters not only soot quantity but also **network topology**, changing how carbon is routed through the mechanism.
 
-These insights were applied to high-pressure counterflow diffusion flames and validated using experimental soot measurements.
+These insights were applied to high-pressure counterflow diffusion flames and supplemented1 using experimental soot measurements.
 
 ---
 
