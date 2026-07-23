@@ -68,7 +68,7 @@ The facility integrates diffuse light based modulated absorption emission imagin
 This facility produced several key findings:
 
 - Disparate pressure scaling trends from past studies collapse into a **single universal curve** when soot production is normalized by residence time or mass flux.  
-- First measurements of **soot maturity** in high‑pressure counterflow flames.  
+- One of the first measurements of **soot maturity** in high‑pressure counterflow flames.  
 - Identification of pressure‑driven shifts in soot chemical pathways (acetylene and PAH dominance).  
 - High‑resolution soot maps published in **Combustion and Flame** and **Proceedings of the Combustion Institute**.
 
@@ -77,7 +77,7 @@ These results help reconcile long‑standing inconsistencies in soot pressure sc
 - Turbulent combustion modeling  
 - Alternative fuel chemistry  
 - Hydrogen‑blended fuel studies  
-- Soot formation theory  
+- Soot formation theory
 
 ---
 
