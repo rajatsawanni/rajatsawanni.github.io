@@ -2,6 +2,7 @@
 layout: about
 title: About
 permalink: /
+custom_head: '<meta name="google-site-verification" content="HdT1gTxkw4AuIO7ZAzpP3mglZRy8fSd13bjpUfAoPuE" />'
 subtitle: ""
 
 profile:
