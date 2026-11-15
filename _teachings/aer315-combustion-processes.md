@@ -76,6 +76,10 @@ schedule:
     description: Pollutant formation in combustion devices.
 ---
 
+## Student Evaluations
+
+Five of the 16 students completed the University of Toronto course evaluation (5-point scale; Engineering Science department means in parentheses): intellectually stimulating course 4.6 (3.8); linking course concepts to practical applications and current research 4.8 (3.9); overall quality of the learning experience 4.0 (3.7). One student wrote that I was "extremely available for questions and really did care about our learning".
+
 ## Course Overview
 
 AER 315 introduces the fundamental principles governing combustion processes and their applications in aerospace and energy systems. The course covers thermodynamics, chemical kinetics, flame propagation, combustion devices, and environmental impacts associated with fuel utilization.

@@ -10,7 +10,7 @@ related_publications: false
 
 ### Overview
 
-The **High‑Pressure Counterflow Burner Facility** is a custom‑designed experimental rig capable of generating stable counterflow diffusion flames from **1 to 8 bar**, enabling soot formation studies under high pressures.  
+The **High‑Pressure Counterflow Burner Facility** is a custom‑designed experimental rig capable of generating stable, symmetric counterflow diffusion flames up to **10 bar**, enabling soot formation studies under high pressures.  
 Developed during my Ph.D. at UTIAS, this facility is one of only a few worldwide that can:
 
 - Sustain stable counterflow flames at high pressure  
@@ -59,7 +59,7 @@ It allows systematic variation of:
   </div>
 </div>
 
-The facility integrates diffuse light based modulated absorption emission imaging at multiple wavelengths to enable resolved measurements of soot concentrations, maturity, and local temperature fields. The flow and chemistry is largely reproduced using 2D and 1D detailed chemistry and flow solvers (Open source tools) which then provide supplementary data for the understanding of pressure effects on sooting processes.
+The facility integrates diffuse light based modulated absorption emission imaging at multiple wavelengths to enable resolved measurements of soot concentrations, maturity, and local temperature fields. The flow and chemistry are largely reproduced using 2D and 1D detailed chemistry and flow solvers (Open source tools) which then provide supplementary data for the understanding of pressure effects on sooting processes.
 
 ---
 
@@ -85,6 +85,6 @@ These results help reconcile long‑standing inconsistencies in soot pressure sc
 
 This project contributes to:
 
-- Sawanni, R., and Gulder, O. L. (2024). A tractable methodology for assessing the pressure scaling of sooting processes in a counterflow diffusion flame from 1 to 6 bar. Proceedings of the Combustion Institute, 40(1-4), 105745.
-- Sawanni, R., and Gulder, O. L. (2026). Influence of pressure on the structure and chemistry of soot formation counterflow diffusion flame. Combustion and Flame. 286, 114873.
-- Sawanni, R., and Gulder, O. L. Effects of pressure on the chemical sooting structure of equi-diffusive counterflow diffusion flame. Proceedings of the Combustion Institute. (accepted)
+- Sawanni, R., and Gülder, Ö. L. (2024). A tractable methodology for assessing the pressure scaling of sooting processes in a counterflow diffusion flame from 1 to 6 bar. Proceedings of the Combustion Institute, 40(1-4), 105745. [doi:10.1016/j.proci.2024.105745](https://doi.org/10.1016/j.proci.2024.105745)
+- Sawanni, R., and Gülder, Ö. L. (2026). Influence of pressure on the structure and chemistry of counterflow diffusion flames from 1 to 6 bar. Combustion and Flame, 286, 114873. [doi:10.1016/j.combustflame.2026.114873](https://doi.org/10.1016/j.combustflame.2026.114873)
+- Sawanni, R., and Gülder, Ö. L. (2026). Effects of pressure on the chemical sooting structure of equi-diffusive counterflow diffusion flames. Proceedings of the Combustion Institute, 42, 106528. [doi:10.1016/j.proci.2026.106528](https://doi.org/10.1016/j.proci.2026.106528)

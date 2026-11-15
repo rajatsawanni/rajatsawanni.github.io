@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our recent work titled "Effects of pressure on the chemical sooting structure of equi-diffusive counterflow diffusion flames" was accepted for publication in the Proceedings of the Combustion Institute.
+Our recent work titled "Effects of pressure on the chemical sooting structure of equi-diffusive counterflow diffusion flames" was accepted for publication in the Proceedings of the Combustion Institute ([doi:10.1016/j.proci.2026.106528](https://doi.org/10.1016/j.proci.2026.106528)).

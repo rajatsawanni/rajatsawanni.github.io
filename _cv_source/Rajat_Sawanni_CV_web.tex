@@ -1,0 +1,357 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage[margin=0.85in]{geometry}
+\usepackage{enumitem}
+\usepackage{microtype}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{setspace}
+\usepackage{tabularx}
+\usepackage[most]{tcolorbox}
+
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+\pagestyle{empty}
+
+% Define the precise maroon/brown color from your template image
+\definecolor{cvmaroon}{RGB}{152, 66, 60}
+\definecolor{bordergray}{RGB}{200, 200, 200}
+\definecolor{purple}{RGB}{200, 200, 200}
+% Custom style for the Section Banners to match the image precisely
+% Custom style for the Section Banners (Corrected border keys)
+\newtcolorbox{sectionbanner}{
+	colback=white,
+	colframe=bordergray,
+	arc=0mm,
+	sharp corners,
+	boxrule=0.6pt,
+	enhanced,
+	before skip=12pt,
+	after skip=6pt,
+	left=12pt,  % Extra padding to clear the thick accent bar
+	right=8pt,
+	top=2pt,
+	bottom=2pt,
+	fontupper=\fontfamily{phv}\selectfont\bfseries\color{cvmaroon}\large,
+	borderline west={5pt}{0pt}{cvmaroon} % Draws the thick maroon bar cleanly
+}
+
+
+% Title banner style (Corrected alignment key)
+\newtcolorbox{maintitlebanner}{
+	colback=cvmaroon,
+	colframe=cvmaroon,
+	arc=0mm,
+	sharp corners,
+	left=12pt,
+	right=12pt,
+	top=10pt,
+	bottom=10pt,
+	fontupper=\fontfamily{phv}\selectfont\bfseries\color{white}\LARGE,
+	halign=center,
+	before skip=0pt,
+	after skip=14pt
+}
+
+% Global list settings to keep things compact and clean
+\setlist[itemize]{leftmargin=1.5em, itemsep=2pt, topsep=2pt, parsep=0pt}
+\setlist[enumerate]{leftmargin=1.5em, itemsep=2pt, topsep=2pt, parsep=0pt}
+
+\hypersetup{
+	colorlinks=true,
+	linkcolor=cvmaroon,
+	urlcolor=black
+}
+
+% Private contact details live in an untracked file at the workspace root
+\InputIfFileExists{nonexistent_private.tex}{}{\typeout{WARNING: private_details.tex not found -- using placeholders}}
+\providecommand{\PrivDOB}{[date of birth]}
+\providecommand{\PrivPhoneCV}{[phone]}
+\providecommand{\PrivHomeAddressCV}{[address]}
+
+\begin{document}
+	\hypersetup{pdftitle={Rajat Sawanni -- Curriculum Vitae}, pdfauthor={Rajat Sawanni}}
+	
+	% =============================================================================
+	% MAIN HEADER BANNER
+	% =============================================================================
+	\begin{maintitlebanner}
+		{\fontfamily{phv}\selectfont\bfseries\LARGE Rajat Sawanni, Ph.D.} \\[4pt]
+		{\normalsize \mdseries Institute for Aerospace Studies, University of Toronto, 4925 Dufferin Street, Toronto, ON M3H 5T6, Canada \\
+		{\it Email:} \href{mailto:rajat.sawanni@mail.utoronto.ca}{rajat.sawanni@mail.utoronto.ca} \quad \quad {\it Homepage:} \href{https://rajatsawanni.github.io}{https://rajatsawanni.github.io}}
+	\end{maintitlebanner}
+	
+	% =============================================================================
+	% 1. PERSONAL INFORMATION
+	% =============================================================================
+	\begin{sectionbanner}{\emph{Education}}
+	\end{sectionbanner}
+	
+	\begin{itemize}
+		\item \textbf{Doctor of Philosophy (Ph.D.) in Aerospace Engineering} \hfill May 2025 \\
+		University of Toronto, Ontario, Canada \hfill \emph{CGPA:} 3.93/4.0 \\
+		{\em Institute for Aerospace Studies} \\
+		\emph{Thesis: A combined experimental and numerical study of pressure dependence of sooting processes in a counterflow diffusion flame}
+		
+		\item \textbf{Master of Technology (M.Tech.) in Mechanical Engineering} \hfill Aug 2018 \\
+		Indian Institute of Technology, Bombay, Mumbai, India \hfill \emph{CGPA:} 8.29/10.0 \\
+		Dual Degree (B.Tech. + M.Tech.) programme; specialization in Thermal and Fluids Engineering (TFE) \\
+		\emph{Thesis: Injector design and characterizations for Gas-Liquid Rocket Engine}
+		
+		\item \textbf{Bachelor of Technology (B.Tech.) in Mechanical Engineering} \hfill Aug 2018 \\
+		Indian Institute of Technology, Bombay, Mumbai, India \hfill \emph{CGPA:} 8.29/10.0 \\
+		Awarded with the M.Tech. under the Dual Degree programme (single CGPA for both degrees)
+		
+		\item \textbf{Higher Secondary Education (Class 12\textsuperscript{th}) — C.B.S.E.} \hfill 2013 \\
+		Arcadia Academy, Kota, Rajasthan, India \hfill \emph{Percentage}: 94.8\%
+		
+		\item \textbf{Secondary Education (Class 10\textsuperscript{th}) — C.B.S.E.} \hfill 2011 \\
+		D.A.V. Public School, Vasant Vihar, Bilaspur, Chhattisgarh, India \hfill \emph{CGPA}: 10.0/10.0
+	\end{itemize}
+	
+	\begin{sectionbanner}{\emph{Research Interests}}
+	\end{sectionbanner}
+	\noindent Soot formation and particulate emissions of hydrogen-blended and sustainable aviation fuels in high-pressure flames; contrail formation and ice nucleation microphysics (non-CO\textsubscript{2} climate impact of aviation); laser and optical diagnostics of reacting and multiphase flows (LII, LIF, PIV, Rayleigh/Mie and multi-angle light scattering, extinction/emission spectroscopy, TDLAS); chemical kinetics of soot formation; radiative transfer in sooting flames; combustion aerosols, soot nanostructure and flame synthesis of carbon nanomaterials.
+	
+	\begin{sectionbanner}{\emph{Professional \& Research Experience}}
+	\end{sectionbanner}
+	
+	\enlargethispage{\baselineskip}
+	\noindent\textbf{Postdoctoral Fellow} \hfill {Aug 2025 -- current} \\
+	\emph{Institute for Aerospace Studies, University of Toronto} \\
+	Contributing to three interdisciplinary projects spanning multiple areas of sustainable aviation technologies, working collaboratively with academic researchers and industry partners. Support includes development and operation of experimental facilities, academic writing, research coordination and supervision, and developing funding proposals.\vspace*{6pt}
+	\begin{itemize}[label=$\bullet$]
+		\item {\bf Contrails-in-a-lab: Unraveling the multi-physical pathways of contrail inception and growth}\\
+		{{\it Principal Investigators:} Prof. \"{O}mer L. G\"{u}lder, Prof. C. P. T. Groth, Prof. S. Chaudhuri, in collaboration with Pratt \& Whitney Canada and NSERC Canada.}\\
+		{Generating high-quality research data on contrails through optical diagnostics of multi-phase flows utilizing techniques such as particle image velocimetry (PIV), Rayleigh	scattering, multi-angle light scattering, absorption, and extinction for unraveling the mechanism of contrail formation. The goal is to conduct tractable experiments with state-of-the-art non-intrusive diagnostics, in order to guide future aviation technologies on \textbf{climate change mitigation} and improve the understanding and modeling of these multi-physical processes.}\vspace*{6pt}
+		\item {\bf Emission characterization of Sustainable Aviation Fuels in a miniature gas turbine model combustor}\\
+		{{\it Principal Investigators:} Prof. \"{O}mer L. G\"{u}lder}\\
+		{Contributing to the development of a miniature gas turbine model combustor (1 kW) which can be used to generate gas turbine like soot with minimal fuel consumption from novel fuels like SAF, oxygenated hydrocarbons etc.}\vspace*{6pt}
+		\item {\bf Impact of hydrogen addition on the sooting tendency of ethylene counterflow diffusion flames}\\
+		{{\it Principal Investigators:} Prof. \"{O}mer L. G\"{u}lder, in collaboration with Prof. Emre Karata\c{s}}\\
+		{Isolating and investigating the chemical effects of adding hydrogen to ethylene counterflow diffusion flames at high pressure. The work aims to extend our understanding of the role of hydrogen in the sooting tendencies of hydrocarbon fuels at high pressure.}
+	\end{itemize}
+	\vspace*{6pt}
+	\noindent\textbf{Ph.D. Candidate} \hfill {Sep 2018 -- May 2025} \\
+	\emph{Institute for Aerospace Studies, University of Toronto} \\
+	Contributed to the design and development of research facilities focusing on high pressure counterflow flames and low pressure, low temperature contrails. Work included the design, development and operation of experimental facilities, numerical and analytical tools, academic writing, research conceptualization and coordination.\vspace*{6pt}
+	\begin{itemize}[label=$\bullet$]
+		\item {\bf A Combined Experimental and Numerical Study of Pressure Dependence of Sooting Processes in a Counterflow Diffusion Flame}\\   
+		{{\it Advisor:} Prof. \"{O}mer L. G\"{u}lder}\vspace*{6pt}\\
+		\emph{Investigated the pressure dependence of sooting processes by designing experimental, numerical and analytical tools for counterflow diffusion flames. The goal was to unify the disparate pressure dependence of sooting processes in ethylene soot forming counterflow diffusion flames across various dilutions, strain rates and carbon flux.}\vspace*{6pt}
+		\item {\bf Contrails-in-a-lab: Design and development of a novel laboratory scale facility for generating and analyzing contrail cirrus}\\
+		{{\it Principal Investigators:} Prof. \"{O}mer L. G\"{u}lder, Prof. C. P. T. Groth, Prof. S. Chaudhuri, in collaboration with Pratt \& Whitney Canada and NSERC Canada.}\vspace*{6pt}\\
+		\emph{The design and development of a \textbf{novel experimental facility} that generates laboratory ice condensation trails (contrails) by reproducing heterogeneous ice nucleation arising from the turbulent mixing of a high‑temperature combustion exhaust jet ($\sim 600~\mathrm{K}$) with a low‑pressure ($\sim 0.2~\mathrm{bar}$), cold ambient flow ($\sim 210~\mathrm{K}$).}
+	\end{itemize}
+	\vspace*{6pt}
+	\noindent\textbf{Master's Candidate} \hfill {Jan 2015 -- April 2018} \\
+	\emph{Department of Mechanical Engineering, IIT Bombay}\\
+	Worked on various independent research projects as a bachelor's and master's student, gaining expertise in various fields of thermo-fluid sciences.\vspace*{6pt}
+	\begin{itemize}[label=$\bullet$]
+		\item {\bf Development of Gas–Liquid Rocket Engines}\hfill {May 2016 -- Apr 2018}\\
+		{{\it Advisor:} Prof. Arindrajit Chowdhury, IIT Bombay}\\
+		\emph{Contributed to the development and operation of a gas–liquid rocket engine test facility, including the design, fabrication, and characterization of multiple single‑element injector configurations to evaluate novel fuels and advance engine technologies.}\vspace*{6pt}
+		\item {\bf Flow Induced Reconfiguration of Aquatic Vegetation
+		}\hfill{Jan 2015 -- Dec 2016}\\
+		{{\it Advisor:} Prof. Rajneesh Bhardwaj, IIT Bombay}\\
+		\emph{Conducted numerical research on the deformation of flexible cilia using an in‑house Fluid–Structure Interaction solver, extending this work into a theoretical framework that advances the understanding of flow‑induced reconfiguration in aquatic vegetation under low Reynolds number viscous conditions.}
+	\end{itemize}
+	
+	
+	% =============================================================================
+	% 2. TEACHING
+	% =============================================================================
+	\begin{sectionbanner}{Teaching}
+	\end{sectionbanner}
+	\noindent\textbf{Course Instructor, Combustion Processes (AER315)} \hfill Sep 2020 -- Dec 2020 \\
+	\emph{University of Toronto} \\
+	Designed and delivered the core undergraduate course Combustion Processes for third-year Engineering Science students, including preparing new slides and course material to adapt the content for online delivery, assessment design, and student support in a fully remote teaching environment.
+	
+	\raggedright
+	\vspace*{6pt}
+	\noindent\textbf{Teaching Assistant} \hfill Jul 2017 -- Dec 2023 \\
+	\emph{University of Toronto \& Indian Institute of Technology Bombay}\\
+	Supported undergraduate and graduate instruction across mathematics, thermofluids, and combustion courses through tutorial delivery, assessment design and grading, course content management, and student support. Courses and their details are listed below.\vspace*{6pt}
+	\begin{itemize}
+		\item \textbf{Calculus I \& II (ESC194 / ESC195)} – University of Toronto
+		\item \textbf{Fundamentals of Combustion (AER1304)} – University of Toronto
+		\item \textbf{Thermodynamics (ME209)} – IIT Bombay
+		\item \textbf{Mechanical Measurements (ME226)} – IIT Bombay
+	\end{itemize}
+	
+	
+	% =============================================================================
+	% 3. SUPERVISION OF BACHELOR/MASTER THESIS
+	% =============================================================================
+	\begin{sectionbanner}{Supervision of Bachelor's/Master's Theses}
+	\end{sectionbanner}
+	\noindent\textbf{Research Supervision and Mentoring} \hfill 2025 -- current \\
+	\emph{University of Toronto} \\
+	Co-supervised and mentored undergraduate theses, interns, and graduate researchers:
+	\begin{itemize}
+		\item Anay Shah - Undergraduate researcher from University of Toronto, now pursuing a Master's at Imperial College London, UK. Final year thesis: Dependencies of light scattering properties from soot and ice particles in contrail cirrus.
+		\item Arya Ollivierra - Undergraduate Intern from Princeton University. Project: Design and development of a sampling system for in-situ and ex-situ analysis of soot and ice particles in the contrail facility.
+		\item Hannah Drouillard - Undergraduate researcher from University of Toronto. Project: Direct numerical simulation of scalar mixing leading to ice nucleation in contrail cirrus.
+		\item {Junhee Park} - Undergraduate researcher, University of Toronto. Project: Large Eddy Simulations of supersaturation fluctuations through jet mixing in contrail relevant conditions.
+		\item {George Chen} - Undergraduate researcher, University of Toronto. Project: Development of a wavelength modulated tunable diode laser absorption spectroscopy (WM-TDLAS) system for water vapor measurement in the contrail tunnel.
+		\item {Necdet Tektunali} - Master's researcher, University of Toronto. Project: Volatile particulate matter (vPM) and non-volatile particulate matter (nvPM) measurements of combustion exhausts.
+	\end{itemize}
+	
+	
+	% =============================================================================
+	% 4. PHD SUPERVISION
+	% =============================================================================
+	\begin{sectionbanner}{Doctoral Mentoring}
+	\end{sectionbanner}
+	\noindent\textbf{Doctoral Student Mentoring Support} \hfill 2025 -- current \\
+	\emph{University of Toronto}
+	\begin{itemize}
+		\item Aryan Nobakht - Doctoral candidate from Toronto Metropolitan University. Project: Impact of hydrogen addition to sooting tendencies of high pressure counterflow diffusion flames.
+	\end{itemize}
+	
+	
+   % =============================================================================
+	% 6. PUBLICATIONS
+	% =============================================================================
+	\begin{sectionbanner}{Publications}
+	\end{sectionbanner}
+	\enlargethispage{\baselineskip}
+	\noindent\textbf{Journal Articles}
+	\begin{enumerate}
+	    \item {Roy, A.$^*$, \textbf{Sawanni, R.}$^*$, Rajan, Y., Jahncke, I., Taddesse, T., Groth, C. P. T., Chaudhuri, S., G\"{u}lder, \"{O}. L. (2026) Effects of fuel and soot concentrations on the inception and development of contrails. \emph{Proceedings of the Combustion Institute}, 42, 106485. doi: \href{https://doi.org/10.1016/j.proci.2026.106485}{10.1016/j.proci.2026.106485}} 
+	    \item {\textbf{Sawanni, R.}, and G\"{u}lder, \"{O}. L. (2026) Effects of pressure on the chemical sooting structure of equi-diffusive counterflow diffusion flames. \emph{Proceedings of the Combustion Institute}, 42, 106528. doi: \href{https://doi.org/10.1016/j.proci.2026.106528}{10.1016/j.proci.2026.106528}}
+	    \item {\textbf{Sawanni, R.}, and G\"{u}lder, \"{O}. L. (2026). Influence of pressure on the structure and chemistry of counterflow diffusion flames from 1 to 6 bar. \emph{Combustion and Flame}. 286, 114873. doi: \href{https://doi.org/10.1016/j.combustflame.2026.114873}{10.1016/j.combustflame.2026.114873}}
+	    \item {\textbf{Sawanni, R.}, and G\"{u}lder, \"{O}. L. (2025). Retrieval of temperature and extinction coefficient from modulated absorption emission technique: Effects of practical light collection, self-absorption, in-scattering, and finite spatial resolution. \emph{Journal of Quantitative Spectroscopy and Radiative Transfer}. 347, 109662. doi: \href{https://doi.org/10.1016/j.jqsrt.2025.109662}{10.1016/j.jqsrt.2025.109662}}
+	    \item {\textbf{Sawanni, R.}, and G\"{u}lder, \"{O}. L. (2024). A tractable methodology for assessing the pressure scaling of sooting processes in a counterflow diffusion flame from 1 to 6 bar. \emph{Proceedings of the Combustion Institute}, 40(1-4), 105745. doi: \href{https://doi.org/10.1016/j.proci.2024.105745}{10.1016/j.proci.2024.105745}}
+	    \item {Bhati, A.$^*$, \textbf{Sawanni, R.}$^*$, Kulkarni, K., and Bhardwaj, R. (2018). Role of skin friction drag during flow-induced reconfiguration of a flexible thin plate. \emph{Journal of Fluids and Structures}, {77}, 134--150. doi: \href{https://doi.org/10.1016/j.jfluidstructs.2017.12.003}{10.1016/j.jfluidstructs.2017.12.003}}
+		\end{enumerate}
+		\def\thefootnote{*}\footnotetext{Contributed equally}
+		
+		\vspace*{6pt}
+		\noindent\textbf{Refereed Conference Papers}
+		\begin{enumerate}
+		\item Jahncke, I., Chelem Mayigue, C., Taddesse, T., Roy, A., \textbf{Sawanni, R.}, Rajan, Y., Groth, C. P. T., Chaudhuri, S., Gülder, Ö. L. (2026). FANS-based predictions of jet-regime contrail formation using a two-equation soot/ice aerosol transport model. \emph{AIAA SciTech 2026 Forum}, 2026-1021. \href{https://doi.org/10.2514/6.2026-1021}{doi:10.2514/6.2026-1021}
+		\item Chelem Mayigue, C., Taddesse, T., Jahncke, I., Groth, C. P. T., Roy, A., \textbf{Sawanni, R.}, Gülder, Ö. L., Chaudhuri, S. and Rajan, Y. (2025). Contrail formation simulation via FANS-based turbulence modelling combined with two-equation soot/ice particle transport modelling. \emph{AIAA SciTech 2025 Forum}, 2025-0600. \href{https://doi.org/10.2514/6.2025-0600}{doi:10.2514/6.2025-0600}
+	\end{enumerate}
+
+	\vspace*{6pt}
+	\noindent\textbf{Preprints \& Working Papers}
+	\begin{enumerate}
+		\item Nobakht, A., \textbf{Sawanni, R.}, Gülder, Ö. L. Effects of pressure on the chemical sooting structure of hydrogen doped ethylene counterflow diffusion flame. \emph{Combustion and Flame}. (in preparation)
+		\item Karataş, A. E., \textbf{Sawanni, R.}, Gülder, Ö. L. Soot formation in high pressure diffusion flames. \emph{Progress in Energy and Combustion Science}. (in preparation)
+		\item \textbf{Sawanni, R.}$^*$, Roy, A.$^*$, Rajan, Y., Mayigue, C. C., Taddesse, T., Jahncke, I., Chaudhuri, S., Groth, C. P. T., Gülder, Ö. L. (2026). A contrail-in-a-lab facility to study the inception and development of contrails. \emph{Bulletin of the American Meteorological Society}. (in preparation)
+	\end{enumerate}
+	
+	\vspace*{6pt}
+	\noindent\textbf{Other Conference Papers and Talks}
+	\begin{enumerate}
+		\item {Roy, A.$^*$, \textbf{Sawanni, R.}$^*$, Rajan, Y., Jahncke, I., Taddesse, T., Groth, C. P. T., Chaudhuri, S., G\"{u}lder, \"{O}. L. Effects of fuel and soot concentrations on the inception and development of contrails. \emph{International Symposium on Combustion}, Kyoto, Japan, 2026}
+		\item {\textbf{Sawanni, R.}, and G\"{u}lder, \"{O}. L. Effects of pressure on the chemical sooting structure of equi-diffusive counterflow diffusion flames. \emph{International Symposium on Combustion}, Kyoto, Japan, 2026}
+		\item {\textbf{Sawanni, R.}, and G\"{u}lder, \"{O}. L. (2025). Investigation of chemical sooting structures in counterflow diffusion flames from 1 to 6 bar. \emph{Combustion Institute's Canadian Section Spring Technical Meeting}, University of Calgary, Calgary, Canada}
+		\item Jahncke, I., Mayigue, C. C., Taddesse, T., Groth, C. P. T., Roy, A., \textbf{Sawanni, R.}, Rajan, Y., Chaudhuri, S., G\"{u}lder, \"{O}. L. (2025). FANS-based predictions of contrail formation in the jet-regime  using a two-equation soot/ice aerosol transport model. \emph{Combustion Institute's Canadian Section Spring Technical Meeting}, University of Calgary, Calgary, Canada
+		\newpage
+		\item {\textbf{Sawanni, R.}, and G\"{u}lder, \"{O}. L. (2024). A tractable methodology for assessing the pressure scaling of sooting processes in a counterflow diffusion flame from 1 to 6 bar. \emph{International Symposium on Combustion}, Milan, Italy, 2024}
+		\item {\textbf{Sawanni, R.}, and G\"{u}lder, \"{O}. L. (2024). A tractable methodology for assessing the pressure scaling of sooting processes in a counterflow diffusion flame from 1 to 6 bar. \emph{Combustion Institute's Canadian Section Spring Technical Meeting}, Queen's University, Kingston, Canada}
+		\item {\textbf{Sawanni, R.}, and G\"{u}lder, \"{O}. L. (2024). Pressure Scaling of Sooting Processes in a Counterflow Diffusion Flame from 1 to 6 bar. \emph{Twenty-first International Conference on Flow Dynamics}, Institute of Fluid Science, Tohoku University, Sendai, Japan}
+		\item {\textbf{Sawanni, R.}, and G\"{u}lder, \"{O}. L. (2023). Assessment of tractability of laminar opposed-flow diffusion flames for studying pressure dependence of sooting processes. \emph{Combustion Institute's Canadian Section Spring Technical Meeting}, University of Alberta, Alberta, Canada}
+		\item {\textbf{Sawanni, R.}, and G\"{u}lder, \"{O}. L. (2022). Optical considerations for low soot measurements in steady state counterflow diffusion flames using Diffuse Back Illuminated Extinction Imaging - Temperature Imaging at high pressures. \emph{Combustion Institute's Canadian Section Spring Technical Meeting}, University of Ottawa, Ottawa, Canada}
+		\item {\textbf{Sawanni, R.}, and G\"{u}lder, \"{O}. L. (2022). Tractability of laminar counterflow diffusion flames to assess the pressure dependence of sooting processes. \emph{Combustion Institute's Canadian Section Spring Technical Meeting}, University of Ottawa, Ottawa, Canada}
+		\item {Shaikh, T., \textbf{Sawanni, R.}, Chowdhury, A., Umakant, S., (2017). A comparison of the performance of uni-element injectors for laboratory scale gas-liquid rocket engines, \emph{$11^{th}$ Asia Pacific Conference on Combustion}, Sydney, Australia}
+	\end{enumerate}
+	
+
+
+% =============================================================================
+% 7. DEVELOPMENT
+% =============================================================================
+\begin{sectionbanner}{Development}
+\end{sectionbanner}
+\noindent\textbf{Technology and Facility Demonstrations}
+	\begin{itemize}
+		\item \textbf{Contrails-in-a-lab Facility:} Co-designed, commissioned, and implemented a novel low-pressure ($\sim 0.2$ bar), cold ($\sim 210$ K) multi-phase wind tunnel environment integrated with automated flow diagnostics for tracking real-time ice plume crystallization profiles.
+		\item \textbf{High pressure Counterflow burner:} Designed and fabricated a high pressure counterflow combustor, and its P\&ID capable of maintaining stable, symmetric diffusion flames up to 10 bar. 
+	\end{itemize}
+
+
+% =============================================================================
+% 8. FUNDING
+% =============================================================================
+\begin{sectionbanner}{Proposal Development}
+\end{sectionbanner}
+\noindent\textbf{R\&D Grant Project Proposals}
+	\begin{itemize}
+		\item Supported project conceptualization, budget scheduling, and drafting technical proposals for industrial-academic programs under NSERC Canada, Pratt \& Whitney Canada, and NordSpace aerospace frameworks.
+	\end{itemize}
+
+
+% =============================================================================
+% 10. PEER RECOGNITION
+% =============================================================================
+\begin{sectionbanner}{Peer Recognition}
+\end{sectionbanner}
+\begin{itemize}
+\item \textbf{Best Presentation Award for Young Researcher} — 21\textsuperscript{st} International Conference on Flow Dynamics, Tohoku University, Sendai, Japan \hfill 2024
+\item \textbf{Undergraduate Research Award} — Indian Institute of Technology Bombay \hfill 2017
+\item \textbf{National Physics and Astronomy Olympiads} — Ranked in National Top 1\% \hfill 2013
+\end{itemize}
+
+
+% =============================================================================
+% 11. CONTRIBUTIONS TO THE INSTITUTE
+% =============================================================================
+\begin{sectionbanner}{Contributions to the institute}
+\end{sectionbanner}
+\begin{itemize}
+\item \textbf{Group Safety Delegate:} Research group at the University of Toronto Institute for Aerospace Studies (UTIAS). \hfill 2026 -- current
+\item \textbf{Student Representative Actions:} Elected Social Coordinator for the student guild at University of Toronto Institute for Aerospace Studies (UTIAS).
+\end{itemize}
+
+
+% =============================================================================
+% 12. CONTRIBUTIONS OUTSIDE THE INSTITUTE
+% =============================================================================
+\begin{sectionbanner}{Contributions outside the institute}
+\end{sectionbanner}
+\noindent\textbf{Peer Review and Membership}
+\begin{itemize}
+\item \textbf{Peer review:} Reviewer, \emph{Combustion and Flame}.
+\item \textbf{Membership:} Member, The Combustion Institute.
+\end{itemize}
+
+
+% =============================================================================
+% 13. OTHERS
+% =============================================================================
+\begin{sectionbanner}{Others}
+\end{sectionbanner}
+\noindent\textbf{Core Engineering \& Computing Skills}\vspace*{4pt}
+
+\noindent
+\begin{tabular}{@{}p{2in}p{4.3in}}
+	{\it Combustion system design} & Coflow and counterflow high pressure burners, Model gas turbine combustors, liquid rocket engines, turbulent premixed burners\vspace*{4pt}\\
+	{\it Ex-situ techniques} & thermophoretic sampling, aerodynamic sampling, exhaust gas analysis, mobility sizing, phase Doppler anemometry, electron microscopy, gas chromatography, mass spectrometry, optical particle counters\vspace*{4pt}\\
+	{\it Optical diagnostics} & Non-intrusive optical diagnostics like particle image velocimetry (PIV), Rayleigh and Mie scattering, shadowgraphy, schlieren imaging, extinction and emission spectroscopy, multi-angle light scattering, laser-induced fluorescence, laser-induced incandescence\vspace*{4pt}\\
+	{\it Process control} & PID integration, flow control and automation, cryogenic system design, high pressure and vacuum system design, thermal management systems\vspace*{4pt}\\
+	{\it Analytical Languages} & Python, MATLAB\vspace*{4pt}\\
+	{\it Design, modeling and analysis}& AutoCAD, SolidWorks, Inventor, GMSH, MATLAB/Simulink, OpenFOAM, Tecplot, ANSYS, LabVIEW SignalExpress, Mathematica, CHEMKIN, Cantera, OpenSMOKE++\vspace*{4pt}\\
+	{\it Analytical modeling}& Fluid--structure interactions, Abel inversion, Radiative transfer analysis, Monte Carlo methods, global reaction pathway analysis\vspace*{4pt}\\
+\end{tabular}
+
+
+\vspace*{10pt}
+\noindent\textbf{Standardized Tests}
+	\begin{itemize}
+		\item \textbf{IELTS General Training:} Overall Band Score \textbf{8.5/9.0} \hfill 2025
+		\item \textbf{Graduate Record Examination (GRE):} Cumulative Score \textbf{327/340} \hfill 2018
+	\end{itemize}
+
+\vspace*{6pt}
+\noindent\textbf{Community Service Details}
+	\begin{itemize}
+		\item Volunteered for one year with the National Service Scheme (NSS)
+		\item Raised awareness and funds for the National Association for the Blind, India
+		\item Organized a campus-wide donation drive for neighboring underprivileged communities
+		\item Promoted sustainable energy technologies in rural India as a volunteer with the Yusuf Meherally Centre, supporting small-scale industrial development
+	\end{itemize}
+
+\end{document}

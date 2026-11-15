@@ -11,7 +11,7 @@ related_publications: false
 ### Overview
 
 The **Contrails‑in‑a‑Lab** project represents one of the world’s first controlled laboratory environments capable of reproducing **jet‑regime contrail formation**.  
-Developed at the University of Toronto Institute for Aerospace Studies (UTIAS) in collaboration with **Pratt & Whitney Canada** and **NSERC**, this facility recreates **upper‑troposphere / lower‑stratosphere (UTLS)** conditions—low pressure (~0.2 bar), cryogenic ambient temperatures (~210 K), and hot humid exhaust jets (~600 K).
+Developed at the University of Toronto Institute for Aerospace Studies (UTIAS) in collaboration with **Pratt & Whitney Canada** and **NSERC**, this facility recreates **upper‑troposphere / lower‑stratosphere (UTLS)** conditions—low pressure (~0.2 bar), cold ambient temperatures (~210 K), and hot humid exhaust jets (~600 K).
 
 This unique setup allows us to isolate and study the **multi‑phase physics** of contrail inception, ice nucleation, soot–ice interactions, and mixing‑driven supersaturation, thereby directly addressing aviation’s **largest and most uncertain climate‑forcing component**.
 
@@ -21,7 +21,7 @@ This unique setup allows us to isolate and study the **multi‑phase physics** o
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/contrail_facility.png" caption="Image of the contrail facility depicting the tunnel, instrumentation and diagnostics required for generating high quality research data for the understanding and modeling of contrail cirrus. On the left, we show the inverted coflow soot generator, hydrogen-based, and Jet-A1/SAF-based gas turbine model combustors. On the right, we show the rendering of the contrail tunnel showing the central exhaust jet, bypass tube and ambient flow tunnel. Three optically accessible windows provide a unprecedented view of the contrail formation process while the fourth instrumentation wall houses temperature, pressure, humidity sensors and sampling probes." class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/contrail_facility.png" caption="Image of the contrail facility depicting the tunnel, instrumentation and diagnostics required for generating high quality research data for the understanding and modeling of contrail cirrus. On the left, we show the inverted coflow soot generator, hydrogen-based, and Jet-A1/SAF-based gas turbine model combustors. On the right, we show the rendering of the contrail tunnel showing the central exhaust jet, bypass tube and ambient flow tunnel. Three optically accessible windows provide an unobstructed view of the contrail formation process while the fourth instrumentation wall houses temperature, pressure, humidity sensors and sampling probes." class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 
@@ -95,8 +95,8 @@ These results form benchmark datasets for:
 
 This project contributes to multiple manuscripts, including:
 
-- Sawanni, R.\*, Roy, A.\*, Rajan, Y., Mayigue, C. C., Taddesse, T., Jahncke, I., Chaudhuri, S., Groth, C. P. T., Gulder, O. L. (2026). A contrail-in-a-lab facility to study the inception and development of contrails. Bulletin of American Meteorological Society. (in preparation)  
-- Roy, A.\*, Sawanni, R.\*, Rajan, Y., Mayigue, C. C., Taddesse, T., Jahncke, I., Chaudhuri, S., Groth, C. P. T., Gulder, O. L. Effects of fuel and soot characteristics on the inception and development of contrails. Proceedings of the Combustion Institute. (accepted)
+- Sawanni, R.\*, Roy, A.\*, Rajan, Y., Mayigue, C. C., Taddesse, T., Jahncke, I., Chaudhuri, S., Groth, C. P. T., Gülder, Ö. L. A contrail-in-a-lab facility to study the inception and development of contrails. Bulletin of the American Meteorological Society (in preparation).  
+- Roy, A.\*, Sawanni, R.\*, Rajan, Y., Jahncke, I., Taddesse, T., Groth, C. P. T., Chaudhuri, S., Gülder, Ö. L. (2026). Effects of fuel and soot concentrations on the inception and development of contrails. Proceedings of the Combustion Institute, 42, 106485. [doi:10.1016/j.proci.2026.106485](https://doi.org/10.1016/j.proci.2026.106485)
 
 \* equal contributions
 

@@ -2,19 +2,12 @@ cv:
   name: Rajat Sawanni, Ph.D.
   label: Postdoctoral Fellow – Aerospace Engineering
   email: rajat.sawanni@mail.utoronto.ca
-  location: Ontario, Canada
+  location: Toronto, Ontario, Canada
   image: ""
   summary: >
     Postdoctoral Fellow at the University of Toronto Institute for Aerospace Studies,
     specializing in sustainable aviation, soot formation, contrail microphysics,
     rocket emissions, and advanced optical diagnostics.
-
-  address:
-    street: 108 [removed]
-    city: [removed]
-    region: Ontario
-    postalCode: [removed]
-    countryCode: CA
 
   sections:
     Education:
@@ -46,7 +39,7 @@ cv:
       - company: University of Toronto Institute for Aerospace Studies
         position: Postdoctoral Fellow
         location: Toronto, Canada
-        start_date: 2025-06
+        start_date: 2025-08
         end_date: Present
         summary: >
           Contributing to interdisciplinary sustainable aviation projects involving contrail
@@ -88,7 +81,7 @@ cv:
         authors:
           - 21st International Conference on Flow Dynamics, Tohoku University
         date: 2024
-        awarder: Institute for Fluid Sciences, Japan
+        awarder: Institute of Fluid Science, Tohoku University, Sendai, Japan
         summary: Recognized for outstanding research presentation on soot formation.
 
       - title: Undergraduate Research Award

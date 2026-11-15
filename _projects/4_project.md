@@ -73,6 +73,7 @@ These results were published in the **Journal of Quantitative Spectroscopy and R
     {% include figure.liquid loading="eager" path="assets/img/RTE_output.jpg" caption="Effects of finite and disparate spatial resolution: (a) and (c) show the measured effective extinction coefficient and radiance for flame case A and B, respectively, compared to their actual values; (b) and (d) illustrate the uncorrected and corrected temperatures for flame cases A and B, respectively, compared to the actual temperature." class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
+
 ---
 
 ## Applications
@@ -91,4 +92,4 @@ It provides a robust numerical foundation for interpreting optical measurements 
 
 ## Publications & References
 
-Sawanni, R., Güllder, Ö. L. (2025). Retrieval of temperature and extinction coefficient from modulated absorption emission technique: Effects of practical light collection, self-absorption, in-scattering, and finite spatial resolution. Journal of Quantitative Spectroscopy and Radiative Transfer, 347, 109662.
+- Sawanni, R., and Gülder, Ö. L. (2025). Retrieval of temperature and extinction coefficient from modulated absorption emission technique: Effects of practical light collection, self-absorption, in-scattering, and finite spatial resolution. Journal of Quantitative Spectroscopy and Radiative Transfer, 347, 109662. [doi:10.1016/j.jqsrt.2025.109662](https://doi.org/10.1016/j.jqsrt.2025.109662)

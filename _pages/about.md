@@ -14,7 +14,7 @@ profile:
     <p>4925 Dufferin Street</p>
     <p>Toronto, ON, Canada, M3H5T6</p>
 
-selected_papers: false # includes a list of papers marked as "selected={true}"
+selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
@@ -28,9 +28,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a Postdoctoral Fellow at the Institute for Aerospace Studies, University of Toronto. My research sits at the intersection of sustainable aviation technologies, non-CO2 emissions, advanced optical diagnostics, and high-pressure combustion systems. Currently, I contribute to major interdisciplinary projects in collaboration with industry partners like Pratt & Whitney Canada and NordSpace to mitigate aviation's climate impact.
+I am a Postdoctoral Fellow at the University of Toronto Institute for Aerospace Studies (UTIAS). My research asks how transport, chemical kinetics and multi-phase microphysics couple when gases turn into particles in extreme environments, from soot formation in high-pressure flames to ice nucleation in aircraft contrails. I build the experimental facilities, optical diagnostics and numerical tools needed to measure these processes under controlled conditions, and I work on interdisciplinary sustainable-aviation projects with industry partners such as Pratt & Whitney Canada and NordSpace.
 
-I earned my Ph.D. in Aerospace Engineering from the University of Toronto in 2025, where my doctoral work focused on the experimental and numerical study of sooting processes at high pressure. Prior to this, I completed my dual Bachelor and Master of Technology degrees in Mechanical Engineering at the Indian Institute of Technology, Bombay.
+I received my Ph.D. in Aerospace Engineering from the University of Toronto in 2025, where I designed and built a high-pressure counterflow burner and studied how soot formation scales with pressure. Before that, I completed a dual degree (B.Tech. and M.Tech.) in Mechanical Engineering at the Indian Institute of Technology Bombay, working on gas–liquid rocket injectors and fluid–structure interaction.
 
 **Core Research Themes**
 
@@ -38,3 +38,5 @@ I earned my Ph.D. in Aerospace Engineering from the University of Toronto in 202
 - **High Pressure Soot Formation**: Investigating the pressure dependence of sooting processes for traditional and novel fuels.
 - **Alternative Fuel Emissions & Rocket Propulsion**: Evaluating the performance, emission characteristics, and hardware compatibility of Sustainable Aviation Fuels (SAF) and hydrogen in high-pressure combustors and liquid bi-propellant rocket engines.
 - **Advanced Optical Diagnostics & Modeling**: Developing multi-angle light scattering, laser-induced incandescence, and modulated absorption-emission techniques coupled with radiative transfer and analytical modeling.
+
+Full details are in my [CV (PDF)](/assets/pdf/cv.pdf), and all papers are on the [publications](/publications/) page.

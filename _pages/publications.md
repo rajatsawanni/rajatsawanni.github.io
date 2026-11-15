@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: publications by categories in reversed chronological order.
+description: Journal articles, conference papers and talks, newest first.
 nav: true
 nav_order: 2
 ---

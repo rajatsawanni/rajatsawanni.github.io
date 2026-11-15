@@ -28,7 +28,7 @@ By converting chemistry into graph structures, the toolkit allows:
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/networks_output.png" caption="(a) Representation and creation of local reaction chemistry as an element flux graph, highlighting the dominant pathways that carry element flux between two species. (b) The evolution of dominant pathways across flame locations and pressure in soot forming counterflow diffusion flames, (c) The evolution of influence of a specie, measured in terms of total normalized flux transferred through the specie that reach a certain node, (d) Evolution of the soot chemical reaction network topology as it evolves through the soot production zone (from right to left), highlighting the pre-emptive organization of carbon delivery network before carbon flux increases." class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/networks_output.png" caption="(a) Representation and creation of local reaction chemistry as an element flux graph, highlighting the dominant pathways that carry element flux between two species. (b) The evolution of dominant pathways across flame locations and pressure in soot forming counterflow diffusion flames, (c) The evolution of influence of a species, measured in terms of total normalized flux transferred through the specie that reach a certain node, (d) Evolution of the soot chemical reaction network topology as it evolves through the soot production zone (from right to left), highlighting the pre-emptive organization of carbon delivery network before carbon flux increases." class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 
@@ -54,12 +54,12 @@ These capabilities reveal hidden structure in chemical mechanisms that tradition
 
 Using this toolkit, several important findings were uncovered:
 
-- **Acetylene** emerge as dominant soot precursors, with influence increasing strongly with pressure.  
+- **Acetylene** emerges as a dominant hub in the soot-forming network, and its influence strengthens with pressure.  
 - The soot network **pre-organizes itself** before measurable soot appears — a previously unreported phenomenon.  
 - Different starting nodes (fuel, intermediates, PAHs) converge to shared pathways, revealing **network-level robustness**.  
 - Pressure alters not only soot quantity but also **network topology**, changing how carbon is routed through the mechanism.
 
-These insights were applied to high-pressure counterflow diffusion flames and supplemented1 using experimental soot measurements.
+These insights were applied to high-pressure counterflow diffusion flames and supported by experimental soot measurements.
 
 ---
 
@@ -79,5 +79,5 @@ It provides a new paradigm for understanding complex chemistry in reacting flows
 
 ## Publications & References
 
-- Sawanni, R., and Gulder, O. L. Effects of pressure on the chemical sooting structure of equi-diffusive counterflow diffusion flame. Proceedings of the Combustion Institute. (accepted)
-- Sawanni, R., and Gulder, O. L. (2026). Influence of pressure on the structure and chemistry of soot formation counterflow diffusion flame. Combustion and Flame. 286, 114873.
+- Sawanni, R., and Gülder, Ö. L. (2026). Effects of pressure on the chemical sooting structure of equi-diffusive counterflow diffusion flames. Proceedings of the Combustion Institute, 42, 106528. [doi:10.1016/j.proci.2026.106528](https://doi.org/10.1016/j.proci.2026.106528)
+- Sawanni, R., and Gülder, Ö. L. (2026). Influence of pressure on the structure and chemistry of counterflow diffusion flames from 1 to 6 bar. Combustion and Flame, 286, 114873. [doi:10.1016/j.combustflame.2026.114873](https://doi.org/10.1016/j.combustflame.2026.114873)
