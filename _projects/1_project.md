@@ -93,10 +93,11 @@ These results form benchmark datasets for:
 
 ## Publications & References
 
-This project contributes to multiple manuscripts, including:
+Publications from this project:
 
-- Sawanni, R.\*, Roy, A.\*, Rajan, Y., Mayigue, C. C., Taddesse, T., Jahncke, I., Chaudhuri, S., Groth, C. P. T., Gülder, Ö. L. A contrail-in-a-lab facility to study the inception and development of contrails. Bulletin of the American Meteorological Society (in preparation).  
 - Roy, A.\*, Sawanni, R.\*, Rajan, Y., Jahncke, I., Taddesse, T., Groth, C. P. T., Chaudhuri, S., Gülder, Ö. L. (2026). Effects of fuel and soot concentrations on the inception and development of contrails. Proceedings of the Combustion Institute, 42, 106485. [doi:10.1016/j.proci.2026.106485](https://doi.org/10.1016/j.proci.2026.106485)
+- Jahncke, I., Mayigue, C. C., Taddesse, T., Groth, C. P. T., Roy, A., Sawanni, R., Rajan, Y., Chaudhuri, S., Gülder, Ö. L. (2026). FANS-based predictions of jet-regime contrail formation using a two-equation soot/ice aerosol transport model. AIAA SciTech 2026 Forum, 2026-1021. [doi:10.2514/6.2026-1021](https://doi.org/10.2514/6.2026-1021)
+- Mayigue, C. C., Taddesse, T., Jahncke, I., Groth, C. P. T., Roy, A., Sawanni, R., Gülder, Ö. L., Chaudhuri, S., Rajan, Y. (2025). Contrail formation simulation via FANS-based turbulence modeling combined with two-equation soot/ice particle transport modeling. AIAA SciTech 2025 Forum, 2025-0600. [doi:10.2514/6.2025-0600](https://doi.org/10.2514/6.2025-0600)
 
 \* equal contributions
 
