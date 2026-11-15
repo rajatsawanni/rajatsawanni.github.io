@@ -12,19 +12,19 @@ related_publications: false
 
 Engines run at high pressure, and soot forms very differently there than in a flame on a lab bench. Yet earlier studies didn't agree on how fast soot production grows with pressure, partly because the flames' residence time and carbon flux changed along with the pressure.
 
-For my Ph.D. I designed and built a counterflow burner, housed inside a high-pressure chamber at UTIAS, that holds stable, symmetric diffusion flames up to 10 bar.
+For my Ph.D. I designed and built a counterflow burner, housed inside a high-pressure chamber at UTIAS, built for stable diffusion flames up to 10 bar. My experiments so far have covered 1 to 6 bar.
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/counterflow_facility.jpg" alt="High-pressure chamber housing the counterflow burner, its diagnostics and flames at several pressures" caption="Left: flames at atmospheric and high pressure for different fuel mixtures. Middle: the high-pressure chamber that houses the burner, with the diffuse-light absorption–emission diagnostic in front. Right: a rendering of the burner. Each of the two opposed nozzles has its own central and coflow streams and a water-cooled shroud; X-Y and tip-tilt stages align them, a linear actuator sets their separation, and a glow plug on a motorized arm lights the flame remotely." class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/counterflow_facility.jpg" alt="High-pressure chamber housing the counterflow burner, its diagnostics and flames at several pressures" caption="Left: flames at atmospheric and high pressure for different fuel mixtures. Middle: the high-pressure chamber that houses the burner, with the diffuse-light absorption–emission diagnostic in front. Right: a rendering of the burner. Each of the two opposed nozzles has its own central and shroud (coflow) streams and a water-cooling jacket; X-Y and tip-tilt stages align them, a linear actuator sets their separation, and a glow plug on a motorized arm lights the flame remotely." class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 
 ## Experiments and diagnostics
 
-The burner runs soot-forming flames, soot formation–oxidation flames and non-sooting flames, and lets us change the fuel (ethylene, propane, hydrogen blends), strain rate, residence time, pressure and oxidizer one at a time.
+So far I have mostly used it for soot-forming ethylene flames, changing the strain rate, residence time, pressure and dilution one at a time. It can also run soot formation–oxidation and non-sooting flames, and other fuels such as propane and hydrogen blends.
 
-To measure soot, I developed a diffuse-light modulated absorption–emission imaging technique at several wavelengths, which maps soot concentration, soot maturity and temperature across the flame. Open-source 1D and 2D detailed-chemistry flame solvers then reproduce the flow and chemistry and fill in what the experiments can't measure.
+To measure soot, I developed a diffuse-light modulated absorption–emission imaging technique at several wavelengths, which maps soot concentration, soot maturity and temperature across the flame. An open-source 1D detailed-chemistry solver (OpenSMOKE++) then reproduces the flame chemistry and fills in what the experiments can't measure, with 2D OpenFOAM simulations of the flow setting its inflow conditions.
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
@@ -34,7 +34,7 @@ To measure soot, I developed a diffuse-light modulated absorption–emission ima
 
 ## What we found
 
-- With flames designed at constant residence time and carbon flux from 1 to 6 bar, concentration-based measures of soot turn out to be misleading, while soot production rates collapse onto a single soot yield parameter that scales roughly as _p_<sup>1.7</sup>. This helps explain why earlier studies disagreed.
+- I designed two families of flames from 1 to 6 bar, one at constant residence time and one at constant carbon flux. Concentration-based measures of soot give different pressure trends depending on the design, which helps explain why earlier studies disagreed. Normalizing the mean soot production rate by the acetylene and pyrene concentrations gives a soot yield parameter that scales as about _p_<sup>1.7</sup> in every case.
 - We measured how both soot volume fraction and soot maturity change with pressure in these flames.
 - Pressure also changes the chemistry of soot formation, with acetylene becoming more and more important (more on the [reaction-network page](/projects/3_project/)).
 

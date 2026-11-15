@@ -22,7 +22,7 @@ A detailed combustion mechanism can have hundreds of species and thousands of re
 
 - **Element-flux graphs** are built from the local reaction rates: species are nodes and edges carry carbon flux.
 - **Dominant pathways** are the largest flux-carrying routes from the fuel to soot precursors to soot.
-- **Influence** measures how much carbon passes through each species.
+- **Influence** measures how much carbon passes through each species on its way to soot.
 - **Network evolution** follows how all of this changes from one point in the flame to the next.
 
 ## What we found
@@ -30,8 +30,8 @@ A detailed combustion mechanism can have hundreds of species and thousands of re
 Applied to high-pressure counterflow flames and checked against the soot measurements:
 
 - Acetylene acts as a hub in the soot-forming network, and its influence grows with pressure.
-- Under pressure the network reorganizes in a percolation-like way: it sets up its carbon delivery routes before soot production actually takes off.
-- Pathways starting from the fuel, from intermediates and from PAHs end up converging onto shared routes.
+- As soot forms, the network organizes itself in a percolation-like way: it assembles and strengthens its carbon delivery routes before soot nucleation actually begins.
+- Carbon reaches soot through a few hub species, acetylene above all, along many parallel pathways that narrow to a single chain near the peak of soot production.
 
 ## Papers
 
