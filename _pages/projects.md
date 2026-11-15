@@ -6,7 +6,7 @@ description: Facilities, diagnostics and models for gas-to-particle processes in
 nav: true
 nav_order: 2
 display_categories: ["Facilities and experiments", "Modeling and analysis tools", "Ongoing projects", "Earlier work"]
-horizontal: false
+horizontal: true
 ---
 
 <!-- pages/projects.md -->

@@ -17,3 +17,17 @@
 "AIAA":
   url: https://arc.aiaa.org/
   color: "#334155"
+
+"ISC":
+  url: https://www.combustioninstitute.org/
+  color: "#1d5c96"
+
+"CI-CS":
+  url: https://www.combustioninstitute.org/
+  color: "#64748b"
+
+"ICFD":
+  color: "#0f766e"
+
+"APCC":
+  color: "#475569"
