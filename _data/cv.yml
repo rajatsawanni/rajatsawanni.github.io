@@ -1,39 +1,36 @@
 cv:
   name: Rajat Sawanni, Ph.D.
-  label: Postdoctoral Fellow – Aerospace Engineering
+  label: Postdoctoral Fellow, University of Toronto Institute for Aerospace Studies
   email: rajat.sawanni@mail.utoronto.ca
-  location: Toronto, Ontario, Canada
+  website: https://rajatsawanni.github.io
   image: ""
   summary: >
-    Postdoctoral Fellow at the University of Toronto Institute for Aerospace Studies,
-    specializing in sustainable aviation, soot formation, contrail microphysics,
-    rocket emissions, and advanced optical diagnostics.
+    Experimental combustion and aerosol scientist working on soot formation at high
+    pressure, contrail formation and ice nucleation, emissions of sustainable aviation
+    fuels and hydrogen, and optical diagnostics with radiative-transfer and reaction-network
+    modeling.
 
   sections:
     Education:
       - institution: University of Toronto Institute for Aerospace Studies
         location: Toronto, Canada
         area: Aerospace Engineering
-        studyType: PhD
+        studyType: Ph.D.
         start_date: 2018-09
         end_date: 2025-05
-        thesis: >
-          A combined experimental and numerical study of pressure dependence of
-          sooting processes in a counterflow diffusion flame.
         highlights:
-          - High‑pressure counterflow diffusion flame facility development.
-          - Unified pressure-scaling framework for soot formation.
+          - "Thesis: A combined experimental and numerical study of pressure dependence of sooting processes in a counterflow diffusion flame (advisor: Prof. Ömer L. Gülder)."
+          - Designed and built a high-pressure counterflow burner; unified the pressure scaling of soot formation.
 
       - institution: Indian Institute of Technology Bombay
         location: Mumbai, India
-        area: Mechanical Engineering (Thermal & Fluids Engineering)
-        studyType: B.Tech + M.Tech Dual Degree
+        area: Mechanical Engineering (Thermal and Fluids Engineering)
+        studyType: B.Tech. and M.Tech. (Dual Degree)
         start_date: 2013-07
         end_date: 2018-08
-        thesis: Injector design and characterization for gas–liquid rocket engines
         highlights:
-          - Designed and tested multiple single‑element rocket injectors.
-          - Developed gas‑liquid rocket engine test facility.
+          - "Thesis: Injector design and characterizations for gas–liquid rocket engine."
+          - Designed, fabricated and characterized single-element injectors for a gas–liquid rocket engine test facility.
 
     Experience:
       - company: University of Toronto Institute for Aerospace Studies
@@ -42,58 +39,127 @@ cv:
         start_date: 2025-08
         end_date: Present
         summary: >
-          Contributing to interdisciplinary sustainable aviation projects involving contrail
-          formation, rocket emissions, and hydrogen-enhanced combustion. Work spans
-          experimental facility development, optical diagnostics, research coordination,
-          and industry collaboration.
+          Three interdisciplinary sustainable-aviation projects with academic researchers and
+          industry partners: development and operation of experimental facilities, academic
+          writing, research coordination and supervision, and funding proposals.
         highlights:
-          - Studying contrail microphysics in a novel contrail-in-a-lab facility.
-          - SAF emissions characterization in liquid bi‑propellant rocket engines.
-          - Hydrogen addition effects on soot formation at high pressure.
+          - "Contrails-in-a-lab: multi-physical pathways of contrail inception and growth (PIs: Profs. Ö. L. Gülder, C. P. T. Groth, S. Chaudhuri; with Pratt & Whitney Canada and NSERC)."
+          - "Emission characterization of sustainable aviation fuels in a 1 kW miniature gas-turbine model combustor (PI: Prof. Ö. L. Gülder)."
+          - "Impact of hydrogen addition on the sooting tendency of ethylene counterflow diffusion flames at high pressure (PI: Prof. Ö. L. Gülder, with Prof. E. Karataş)."
 
       - company: University of Toronto Institute for Aerospace Studies
-        position: PhD Researcher
+        position: Ph.D. Candidate
         location: Toronto, Canada
         start_date: 2018-09
         end_date: 2025-05
         summary: >
-          Designed and operated high‑pressure counterflow burners and low‑pressure
-          contrail facilities. Developed experimental, numerical, and analytical tools for
-          soot formation studies.
+          Design, development and operation of research facilities for high-pressure
+          counterflow flames and low-pressure, low-temperature contrails, with numerical and
+          analytical tools.
         highlights:
-          - High‑pressure soot formation experiments.
-          - Novel laboratory contrail generation facility.
+          - Pressure dependence of sooting processes in counterflow diffusion flames across dilutions, strain rates and carbon fluxes.
+          - "Contrails-in-a-lab: design and development of a laboratory facility that reproduces contrail formation from a hot exhaust jet (~600 K) mixing with a low-pressure (~0.2 bar), cold (~210 K) ambient flow."
 
-      - company: IIT Bombay
-        position: Research Assistant (Masters/Bachelors)
+      - company: Department of Mechanical Engineering, IIT Bombay
+        position: Undergraduate and Master's Researcher
         location: Mumbai, India
         start_date: 2015-01
         end_date: 2018-04
-        summary: >
-          Worked on rocket engines and fluid‑structure interaction problems during
-          undergraduate and graduate research.
         highlights:
-          - Gas‑liquid rocket engine injector development.
-          - Flow‑induced reconfiguration of aquatic vegetation (FSI modeling).
+          - "Development of gas–liquid rocket engines, 2016–2018 (advisor: Prof. Arindrajit Chowdhury)."
+          - "Flow-induced reconfiguration of aquatic vegetation using an in-house fluid–structure interaction solver, 2015–2016 (advisor: Prof. Rajneesh Bhardwaj)."
+
+    Academic Interests:
+      - name: Combustion and emissions
+        keywords:
+          - soot formation at high pressure
+          - hydrogen-blended and sustainable aviation fuels
+          - chemical kinetics of soot formation
+          - combustion aerosols and soot nanostructure
+      - name: Contrails and clouds
+        keywords:
+          - contrail formation
+          - ice-nucleation microphysics
+          - non-CO2 climate impact of aviation
+      - name: Diagnostics and modeling
+        keywords:
+          - laser and optical diagnostics of reacting and multiphase flows
+          - radiative transfer in sooting flames
+          - flame synthesis of carbon nanomaterials
+
+    Teaching:
+      - bullet: "**Course Instructor**, Combustion Processes (AER315), University of Toronto, Sep–Dec 2020. Sole instructor for the third-year core course in Engineering Science, in its first online offering; prepared new slides and course material for online delivery. [Course page](/teachings/aer315-combustion-processes/)."
+      - bullet: "**Teaching Assistant**, University of Toronto: Calculus I and II (ESC194/ESC195), Fundamentals of Combustion (AER1304)."
+      - bullet: "**Teaching Assistant**, IIT Bombay: Thermodynamics (ME209), Mechanical Measurements (ME226)."
+
+    Research Supervision and Mentoring:
+      - bullet: "Doctoral candidate, Toronto Metropolitan University (2025–present): hydrogen addition and sooting tendencies of high-pressure counterflow diffusion flames."
+      - bullet: "Master's researcher, University of Toronto: volatile and non-volatile particulate matter measurements of combustion exhausts."
+      - bullet: "Undergraduate thesis, University of Toronto: light-scattering properties of soot and ice particles in contrail cirrus (now a Master's student at Imperial College London)."
+      - bullet: "Undergraduate intern, Princeton University: sampling system for in-situ and ex-situ analysis of soot and ice particles in the contrail facility."
+      - bullet: "Undergraduate researchers, University of Toronto: direct numerical simulation of scalar mixing leading to ice nucleation; large-eddy simulations of supersaturation fluctuations in jet mixing; a wavelength-modulated TDLAS system for water-vapor measurement in the contrail tunnel."
+
+    Facilities Developed:
+      - bullet: "**Contrails-in-a-lab facility:** co-designed and commissioned a low-pressure (~0.2 bar), cold (~210 K) multi-phase wind tunnel with automated flow diagnostics for tracking ice-plume formation in real time. [Details](/projects/1_project/)."
+      - bullet: "**High-pressure counterflow burner:** designed and fabricated a high-pressure counterflow combustor and its P&ID, sustaining stable, symmetric diffusion flames up to 10 bar. [Details](/projects/2_project/)."
 
     Awards:
-      - title: Best Presentation Award – Young Researcher
-        authors:
-          - 21st International Conference on Flow Dynamics, Tohoku University
+      - title: Best Presentation Award for Young Researcher
         date: 2024
-        awarder: Institute of Fluid Science, Tohoku University, Sendai, Japan
-        summary: Recognized for outstanding research presentation on soot formation.
-
+        awarder: 21st International Conference on Flow Dynamics, Tohoku University, Sendai, Japan
       - title: Undergraduate Research Award
-        authors:
-          - IIT Bombay
         date: 2017
-        awarder: IIT Bombay
-        summary: Awarded for excellence in undergraduate research.
-
-      - title: National Physics & Astronomy Olympiads (NSEP & NSEA)
-        authors:
-          - Indian Association of Physics Teachers
+        awarder: Indian Institute of Technology Bombay
+      - title: National Physics and Astronomy Olympiads (NSEP and NSEA)
         date: 2013
-        awarder: IAPT
-        summary: Ranked in the national top 1% among 200,000+ students.
+        awarder: Indian Association of Physics Teachers
+        summary: Ranked in the national top 1%.
+
+    Service and Professional Activities:
+      - bullet: "Reviewer, _Combustion and Flame_."
+      - bullet: "Member, The Combustion Institute."
+      - bullet: "Group Safety Delegate, research group at UTIAS (2026–present)."
+      - bullet: "Elected Social Coordinator, UTIAS student guild."
+      - bullet: "Proposal development: project conceptualization, budgeting and technical proposals for industry–academia programs with NSERC Canada and Pratt & Whitney Canada."
+
+    Skills:
+      - name: Combustion systems
+        keywords:
+          - coflow and counterflow high-pressure burners
+          - model gas-turbine combustors
+          - liquid rocket engines
+          - turbulent premixed burners
+      - name: Optical diagnostics
+        keywords:
+          - PIV
+          - Rayleigh and Mie scattering
+          - multi-angle light scattering
+          - LII and LIF
+          - extinction and emission spectroscopy
+          - TDLAS
+          - shadowgraphy and schlieren imaging
+      - name: Ex-situ techniques
+        keywords:
+          - thermophoretic and aerodynamic sampling
+          - exhaust gas analysis
+          - mobility sizing
+          - electron microscopy
+          - gas chromatography and mass spectrometry
+      - name: Systems
+        keywords:
+          - high-pressure and vacuum system design
+          - cryogenic system design
+          - flow control and automation
+          - thermal management
+      - name: Software and modeling
+        keywords:
+          - Python
+          - MATLAB/Simulink
+          - Cantera, CHEMKIN, OpenSMOKE++
+          - OpenFOAM, ANSYS
+          - SolidWorks, Inventor, AutoCAD
+          - Monte Carlo radiative transfer
+          - Abel inversion
+
+    Outreach:
+      - bullet: "Volunteer, National Service Scheme (one year); fundraising for the National Association for the Blind, India; campus donation drive for neighboring communities; promotion of sustainable energy technologies in rural India with the Yusuf Meherally Centre."

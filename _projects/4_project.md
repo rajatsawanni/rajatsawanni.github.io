@@ -2,9 +2,9 @@
 layout: page
 title: Backward Monte‑Carlo Ray Tracing for Radiative Transfer
 description: A statistical photon-tracking solver for accurate radiative transfer in harsh combustion environments
-img: assets/img/RTE_BMC.png
-importance: 1
-category: work
+img: assets/img/cards/radiation.jpg
+importance: 2
+category: Modeling and analysis tools
 related_publications: false
 ---
 

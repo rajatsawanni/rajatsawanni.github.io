@@ -1,9 +1,19 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"PROCI":
+  url: https://www.sciencedirect.com/journal/proceedings-of-the-combustion-institute
+  color: "#0b5394"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"CNF":
+  url: https://www.sciencedirect.com/journal/combustion-and-flame
+  color: "#b45309"
 
-"Vision":
-  color: "#009f36"
+"JQSRT":
+  url: https://www.sciencedirect.com/journal/journal-of-quantitative-spectroscopy-and-radiative-transfer
+  color: "#6d28d9"
+
+"JFS":
+  url: https://www.sciencedirect.com/journal/journal-of-fluids-and-structures
+  color: "#0f766e"
+
+"AIAA":
+  url: https://arc.aiaa.org/
+  color: "#334155"

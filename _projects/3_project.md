@@ -2,9 +2,9 @@
 layout: page
 title: Graph-Based Chemical Reaction Network Analysis
 description: A graph-theoretic toolkit for analyzing chemical pathways in reacting flows
-img: assets/img/networks_output.png
+img: assets/img/cards/networks.jpg
 importance: 1
-category: work
+category: Modeling and analysis tools
 related_publications: false
 ---
 
