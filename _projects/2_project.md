@@ -22,6 +22,13 @@ For my Ph.D. I designed and built a counterflow burner, housed inside a high-pre
 
 ## Experiments and diagnostics
 
+<div class="row">
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="lazy" path="assets/img/counterflow_schematic_proci2024.png" alt="Schematic of the counterflow burner nozzle and assembly, the flame between the nozzles, and the gas-handling system" caption="(a) One burner nozzle and the full burner assembly. (b) The counterflow flame between the two nozzles, with the gas and particle stagnation planes. (c) The gas-handling system. Figure from Sawanni and Gülder, Proc. Combust. Inst. 40 (2024) 105745 (CC BY-NC-ND 4.0)." class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
+
+
 So far I have mostly used it for soot-forming ethylene flames, changing the strain rate, residence time, pressure and dilution one at a time. It can also run soot formation–oxidation and non-sooting flames, and other fuels such as propane and hydrogen blends.
 
 To measure soot, I developed a diffuse-light modulated absorption–emission imaging technique at several wavelengths, which maps soot concentration, soot maturity and temperature across the flame. An open-source 1D detailed-chemistry solver (OpenSMOKE++) then reproduces the flame chemistry and fills in what the experiments can't measure, with 2D OpenFOAM simulations of the flow setting its inflow conditions.

@@ -24,6 +24,12 @@ So we decided to make contrails in the lab. At UTIAS, in a project with Pratt & 
 
 The exhaust can come from an inverted coflow soot generator or from model gas-turbine combustors burning Jet-A1, sustainable aviation fuels or hydrogen, and the bypass flow can be run mixed or unmixed. That lets us change one thing at a time (the fuel, the amount of soot, the water vapor) and see what it does to the contrail.
 
+<div class="row">
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="lazy" path="assets/img/contrail_schematic_proci2026.png" alt="Schematic of the contrail experiment: soot generator, heated core flow, tunnel, laser sheet, camera and sampling system" caption="How an experiment runs: exhaust from the soot generator is heated and fed through the core nozzle into the cold, low-pressure ambient flow. A laser sheet and a polarization-resolved camera image the contrail, and sampling lines take the soot to electron microscopy and a mobility sizer. Figure from Roy, Sawanni et al., Proc. Combust. Inst. 42 (2026) 106485 (CC BY-NC-ND 4.0)." class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
+
 So far we have imaged the contrails with 2D elastic light scattering and Stokes polarimetry, and characterized the soot with mobility sizing and electron microscopy. The facility also integrates laser-induced incandescence, multi-angle light scattering, shadowgraphy and diffraction-based particle sizing, and a wavelength-modulated laser absorption (TDLAS) sensor for water vapor is being developed. Turning scattering images into ice number and size is not yet possible, so we pair the measurements with simulations to see where in the jet the air becomes supersaturated.
 
 <div class="row">
