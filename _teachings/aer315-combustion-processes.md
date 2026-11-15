@@ -1,7 +1,7 @@
 ---
 layout: course
 title: Combustion Processes (AER315)
-description: Fall 2020, taught online. Study of combustion thermodynamics, chemical kinetics, flame propagation, combustion applications, and environmental aspects of combustion with emphasis on aerospace propulsion systems.
+description: Taught online. Combustion thermodynamics, chemical kinetics, flame propagation, combustion applications, and environmental aspects of combustion with emphasis on aerospace propulsion systems.
 instructor: Rajat Sawanni
 year: 2020
 term: Fall 2020
