@@ -1,103 +1,48 @@
 ---
 layout: page
-title: Contrails-in-a-Lab Facility
-description: A first-of-its-kind laboratory facility for studying contrail inception and growth
+title: Contrails in a Lab
+description: Recreating how contrails form behind a jet engine, in a wind tunnel at cruise-like conditions
 img: assets/img/cards/contrails.jpg
 importance: 1
 category: Facilities and experiments
 related_publications: false
 ---
 
-## Overview
+## Why contrails?
 
-The **Contrails-in-a-Lab** project represents one of the world’s first controlled laboratory environments capable of reproducing **jet-regime contrail formation**.
-Co-designed and built at the University of Toronto Institute for Aerospace Studies (UTIAS) in a project with **Pratt & Whitney Canada** and **NSERC**, this facility recreates **upper-troposphere / lower-stratosphere (UTLS)** conditions—low pressure (~0.2 bar), cold ambient temperatures (~210 K), and hot humid exhaust jets (~600 K).
+The white trails behind aircraft can spread into cirrus clouds that trap heat, and they are one of the largest and most uncertain parts of aviation's climate impact. They are also hard to study. In flight you can't control anything, and in simulations the physics of ice forming on soot in a turbulent jet is still uncertain.
 
-This unique setup allows us to isolate and study the **multi-phase physics** of contrail inception, ice nucleation, soot–ice interactions, and mixing-driven supersaturation, thereby directly addressing aviation’s **largest and most uncertain climate-forcing component**.
-
----
-
-## Facility
+So we decided to make contrails in the lab. At UTIAS, in a project with Pratt & Whitney Canada and NSERC, we co-designed and built a facility that mixes a hot, humid exhaust jet (~600 K) with a cold (~210 K), low-pressure (~0.2 bar) flow, roughly the conditions at cruise altitude, and lets us watch contrails form through large optical windows.
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/contrail_facility.jpg" alt="Contrail tunnel with its instrumentation, soot generator and model combustors" caption="Image of the contrail facility depicting the tunnel, instrumentation and diagnostics required for generating high quality research data for the understanding and modeling of contrail cirrus. On the left, we show the inverted coflow soot generator, hydrogen-based, and Jet-A1/SAF-based gas turbine model combustors. On the right, we show the rendering of the contrail tunnel showing the central exhaust jet, bypass tube and ambient flow tunnel. Three optically accessible windows provide an unobstructed view of the contrail formation process while the fourth instrumentation wall houses temperature, pressure, humidity sensors and sampling probes." class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/contrail_facility.jpg" alt="Contrail tunnel with its instrumentation, soot generator and model combustors" caption="The contrail facility. Left: the inverted coflow soot generator and the model combustors that produce the exhaust. Middle: the tunnel and its diagnostics in the lab. Right: a rendering of the tunnel, with the central exhaust jet, the bypass tube and the ambient flow. Three windows give a clear view of the contrail as it forms, and the fourth wall carries temperature, pressure and humidity sensors and sampling probes." class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 
----
+## What we can do with it
 
-## What the Facility Enables
+The exhaust can come from an inverted coflow soot generator or from model gas-turbine combustors burning Jet-A1, sustainable aviation fuels or hydrogen, and the bypass flow can be run mixed or unmixed. That lets us change one thing at a time (the fuel, the amount of soot, the water vapor) and see what it does to the contrail.
 
-The facility supports controlled experiments with:
-
-- **Jet-A1 and Sustainable Aviation Fuels (SAF)**
-- **Hydrogen-based gas turbine model combustors**
-- **Inverted coflow diffusion flames**
-- **Mixed and unmixed bypass configurations**
-
-It provides a tractable platform for studying:
-
-- Ice nucleation probability  
-- Soot–ice interactions  
-- Supersaturation-driven contrail formation  
-- Fuel-dependent contrail characteristics  
-- Near-field contrail microphysics  
-
----
-
-## Diagnostics & Measurement Capabilities
+To see what is going on inside the plume we use laser-induced incandescence, multi-angle light scattering, 2D Stokes polarimetry, shadowgraphy and diffraction-based particle sizing, and a wavelength-modulated laser absorption (TDLAS) sensor for water vapor is being developed. Together they tell us about ice number density, particle sizes, soot concentration and maturity, and where in the jet the air becomes supersaturated.
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/contrail_output.png" alt="Laboratory contrail images and comparisons of measured and predicted scattering intensities" caption="(a) Instantaneous snapshots of laboratory contrails, visualized through elastic light scattering from soot (low scattering) and ice (high scattering intensities) particles, (b) Comparison of mean scattering intensities and its numerical prediction for varying equivalence ratio exhausts of ethylene, (c) Probabilities of finding ice within the mixing lines of various exhaust jet contrails, highlighting that the probability of finding ice largely depends on the supersaturation, and not particle number densities, (d) Averaged scattering intensities of contrails from ethylene and propane exhausts containing varying concentrations of water vapor and soot." class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/contrail_output.png" alt="Laboratory contrail images and comparisons of measured and predicted scattering intensities" caption="(a) Snapshots of laboratory contrails, imaged by elastic light scattering: soot scatters weakly and ice strongly. (b) Measured mean scattering intensities compared with simulations for ethylene exhausts at different equivalence ratios. (c) The probability of finding ice along the mixing lines of different exhausts, which depends mostly on supersaturation rather than on particle number. (d) Mean scattering intensities of contrails from ethylene and propane exhausts with different amounts of water vapor and soot." class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 
+## What we have found so far
 
-The facility integrates advanced diagnostics, including:
+- Whether ice forms comes down to how the exhaust mixes with the cold air. Turbulence, water vapor and soot all play a part, but the local supersaturation matters most, more than how many soot particles there are.
+- Contrails get brighter with more water vapor much more than they do with more soot.
+- Ethylene and propane exhausts give noticeably different contrails, largely because they carry different amounts of water vapor.
+- These are among the first laboratory measurements of how contrails start, made under known and controlled conditions, and our colleagues are using them to test simulations of contrail formation.
 
-- **Laser Induced Incandescence (LII)**  
-- **2D Stokes Polarimetry**  
-- **Multi-Angle Light Scattering (MALS)**  
-- **Wavelength-Modulated TDLAS**  
-- **Shadowgraphy & diffraction-based particle sizing**
+## Papers
 
-These tools enable resolved measurements of:
-
-- Ice number density  
-- Particle size distributions  
-- Soot concentration & maturity  
-- Water vapor fields  
-- Mixing-driven supersaturation zones  
-
----
-
-## Scientific Contributions
-
-Recent experiments revealed:
-
-- Contrail formation probability is governed primarily by **local supersaturation**, not soot number density.  
-- Scattering intensities increase with **water vapor content** more strongly than soot concentration.  
-- Ethylene vs. propane exhausts show distinct scattering behaviors tied to fuel-dependent humidity levels.  
-- First resolved laboratory measurements of **near-field contrail inception** under known boundary conditions.
-
-These results form benchmark datasets for:
-
-- Climate modeling  
-- Aviation emissions policy  
-- SAF and hydrogen fuel evaluation  
-- Next-generation propulsion system design  
-
----
-
-## Publications & References
-
-Publications from this project:
-
-- Roy, A.\*, Sawanni, R.\*, Rajan, Y., Jahncke, I., Taddesse, T., Groth, C. P. T., Chaudhuri, S., Gülder, Ö. L. (2026). Effects of fuel and soot concentrations on the inception and development of contrails. Proceedings of the Combustion Institute, 42, 106485. [doi:10.1016/j.proci.2026.106485](https://doi.org/10.1016/j.proci.2026.106485)
-- Jahncke, I., Mayigue, C. C., Taddesse, T., Groth, C. P. T., Roy, A., Sawanni, R., Rajan, Y., Chaudhuri, S., Gülder, Ö. L. (2026). FANS-based predictions of jet-regime contrail formation using a two-equation soot/ice aerosol transport model. AIAA SciTech 2026 Forum, 2026-1021. [doi:10.2514/6.2026-1021](https://doi.org/10.2514/6.2026-1021)
-- Mayigue, C. C., Taddesse, T., Jahncke, I., Groth, C. P. T., Roy, A., Sawanni, R., Gülder, Ö. L., Chaudhuri, S., Rajan, Y. (2025). Contrail formation simulation via FANS-based turbulence modeling combined with two-equation soot/ice particle transport modeling. AIAA SciTech 2025 Forum, 2025-0600. [doi:10.2514/6.2025-0600](https://doi.org/10.2514/6.2025-0600)
+- Roy, A.\*, Sawanni, R.\*, Rajan, Y., Jahncke, I., Taddesse, T., Groth, C. P. T., Chaudhuri, S., Gülder, Ö. L. (2026). Effects of fuel and soot concentrations on the inception and development of contrails. _Proceedings of the Combustion Institute_, 42, 106485. [doi:10.1016/j.proci.2026.106485](https://doi.org/10.1016/j.proci.2026.106485)
+- Jahncke, I., Mayigue, C. C., Taddesse, T., Groth, C. P. T., Roy, A., Sawanni, R., Rajan, Y., Chaudhuri, S., Gülder, Ö. L. (2026). FANS-based predictions of jet-regime contrail formation using a two-equation soot/ice aerosol transport model. _AIAA SciTech 2026 Forum_, 2026-1021. [doi:10.2514/6.2026-1021](https://doi.org/10.2514/6.2026-1021)
+- Mayigue, C. C., Taddesse, T., Jahncke, I., Groth, C. P. T., Roy, A., Sawanni, R., Gülder, Ö. L., Chaudhuri, S., Rajan, Y. (2025). Contrail formation simulation via FANS-based turbulence modeling combined with two-equation soot/ice particle transport modeling. _AIAA SciTech 2025 Forum_, 2025-0600. [doi:10.2514/6.2025-0600](https://doi.org/10.2514/6.2025-0600)
 
 \* equal contributions
-

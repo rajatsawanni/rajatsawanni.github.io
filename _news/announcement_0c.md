@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started as a **Postdoctoral Fellow** at the University of Toronto Institute for Aerospace Studies, working on contrails, sustainable aviation fuel emissions and hydrogen addition in high-pressure flames.
+Started as a postdoc at UTIAS, working on contrails, soot from sustainable aviation fuels, and hydrogen in high-pressure flames.

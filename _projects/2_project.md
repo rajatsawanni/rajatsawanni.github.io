@@ -1,90 +1,45 @@
 ---
 layout: page
-title: High-Pressure Counterflow Burner Facility
-description: A specialized high-pressure rig for soot formation studies
+title: High-Pressure Counterflow Flames
+description: A burner for finding out how pressure changes soot formation
 img: assets/img/cards/counterflow.jpg
 importance: 2
 category: Facilities and experiments
 related_publications: false
 ---
 
-## Overview
+## Why high pressure?
 
-The **High-Pressure Counterflow Burner Facility** is a custom-designed experimental rig capable of generating stable, symmetric counterflow diffusion flames up to **10 bar**, enabling soot formation studies under high pressures.  
-Developed during my Ph.D. at UTIAS, this facility is one of only a few worldwide that can:
+Engines run at high pressure, and soot forms very differently there than in a flame on a lab bench. Yet earlier studies didn't agree on how fast soot production grows with pressure, partly because the flames' residence time and carbon flux changed along with the pressure.
 
-- Sustain stable counterflow flames at high pressure  
-- Perform **non-intrusive soot diagnostics** in optically thick environments  
-- Resolve **pressure-dependent sooting trends**  
-- Support premixed, partially premixed, and diffusion flame configurations  
-
-This platform was built to address long-standing discrepancies in reported pressure scaling exponents for soot production rates.
-
----
-
-## Facility Showcase
+For my Ph.D. I designed and built a counterflow burner, housed inside a high-pressure chamber at UTIAS, that holds stable, symmetric diffusion flames up to 10 bar.
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/counterflow_facility.jpg" alt="High-pressure chamber housing the counterflow burner, its diagnostics and flames at several pressures" caption="Images showing the counterflow burner facility housed inside the high pressure chamber at UTIAS, along with the developed diffuse light based modulated absorption-emission diagnostic. On the right, we show the rendering of the burner, consisting of counter-flowing nozzle assemblies, each equipped with its controlled stream of central and coflow jets and surrounded by a water-cooling nozzle. The positioning of the nozzle assemblies is controlled using X-Y and tip tilt stages, while their separation is controlled by a linear actuator. The flame can be remotely ignited using a glow plug which is controlled using a motorized arm. On the left, we show the ignited flames at atmospheric conditions and high pressures at varying fuel compositions." class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/counterflow_facility.jpg" alt="High-pressure chamber housing the counterflow burner, its diagnostics and flames at several pressures" caption="Left: flames at atmospheric and high pressure for different fuel mixtures. Middle: the high-pressure chamber that houses the burner, with the diffuse-light absorption–emission diagnostic in front. Right: a rendering of the burner. Each of the two opposed nozzles has its own central and coflow streams and a water-cooled shroud; X-Y and tip-tilt stages align them, a linear actuator sets their separation, and a glow plug on a motorized arm lights the flame remotely." class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 
+## Experiments and diagnostics
 
----
+The burner runs soot-forming flames, soot formation–oxidation flames and non-sooting flames, and lets us change the fuel (ethylene, propane, hydrogen blends), strain rate, residence time, pressure and oxidizer one at a time.
 
-## What the Facility Enables
-
-The burner supports controlled studies of:
-
-- **Soot formation (SF)**  
-- **Soot formation–oxidation (SFO)**  
-- **Non-sooting diffusion flames**  
-- **Fuel-dependent pressure scaling**  
-- **Chemical vs. physical soot growth mechanisms**  
-
-It allows systematic variation of:
-
-- Fuel composition (ethylene, propane, hydrogen blends)  
-- Strain rate  
-- Residence time  
-- Pressure  
-- Oxidizer composition  
-
----
+To measure soot, I developed a diffuse-light modulated absorption–emission imaging technique at several wavelengths, which maps soot concentration, soot maturity and temperature across the flame. Open-source 1D and 2D detailed-chemistry flame solvers then reproduce the flow and chemistry and fill in what the experiments can't measure.
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/counterflow_output.png" alt="Pressure scaling of soot production and the sooting structure of a counterflow flame" caption="(a) Reconciling the pressure scaling of sooting processes for counterflow diffusion flames designed at varying fuel compositions with constant residence times or mass flux, (b) The sooting structure of a counterflow diffusion flame and the effects of pressure on measured soot volume fraction and soot maturity." class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/counterflow_output.png" alt="Pressure scaling of soot production and the sooting structure of a counterflow flame" caption="(a) Reconciling the pressure scaling of soot formation for flames of different fuel mixtures designed with constant residence time or mass flux. (b) The sooting structure of a counterflow diffusion flame, and how pressure changes the measured soot volume fraction and soot maturity." class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 
-The facility integrates diffuse light based modulated absorption emission imaging at multiple wavelengths to enable resolved measurements of soot concentrations, maturity, and local temperature fields. The flow and chemistry are largely reproduced using 2D and 1D detailed chemistry and flow solvers (Open source tools) which then provide supplementary data for the understanding of pressure effects on sooting processes.
+## What we found
 
----
+- With flames designed at constant residence time and carbon flux from 1 to 6 bar, concentration-based measures of soot turn out to be misleading, while soot production rates collapse onto a single soot yield parameter that scales roughly as _p_<sup>1.7</sup>. This helps explain why earlier studies disagreed.
+- We measured how both soot volume fraction and soot maturity change with pressure in these flames.
+- Pressure also changes the chemistry of soot formation, with acetylene becoming more and more important (more on the [reaction-network page](/projects/3_project/)).
 
-## Scientific Contributions
+## Papers
 
-This facility produced several key findings:
-
-- Disparate pressure scaling trends from past studies collapse into a **single universal curve** when soot production is normalized by residence time or mass flux.  
-- One of the first measurements of **soot maturity** in high-pressure counterflow flames.  
-- Identification of pressure-driven shifts in soot chemical pathways (acetylene and PAH dominance).  
-- High-resolution soot maps published in **Combustion and Flame** and **Proceedings of the Combustion Institute**.
-
-These results help reconcile long-standing inconsistencies in soot pressure scaling and provide benchmark datasets for:
-
-- Turbulent combustion modeling  
-- Alternative fuel chemistry  
-- Hydrogen-blended fuel studies  
-- Soot formation theory
-
----
-
-## Publications & References
-
-This project contributes to:
-
-- Sawanni, R., and Gülder, Ö. L. (2024). A tractable methodology for assessing the pressure scaling of sooting processes in a counterflow diffusion flame from 1 to 6 bar. Proceedings of the Combustion Institute, 40(1-4), 105745. [doi:10.1016/j.proci.2024.105745](https://doi.org/10.1016/j.proci.2024.105745)
-- Sawanni, R., and Gülder, Ö. L. (2026). Influence of pressure on the structure and chemistry of counterflow diffusion flames from 1 to 6 bar. Combustion and Flame, 286, 114873. [doi:10.1016/j.combustflame.2026.114873](https://doi.org/10.1016/j.combustflame.2026.114873)
-- Sawanni, R., and Gülder, Ö. L. (2026). Effects of pressure on the chemical sooting structure of equi-diffusive counterflow diffusion flames. Proceedings of the Combustion Institute, 42, 106528. [doi:10.1016/j.proci.2026.106528](https://doi.org/10.1016/j.proci.2026.106528)
+- Sawanni, R., and Gülder, Ö. L. (2024). A tractable methodology for assessing the pressure scaling of sooting processes in a counterflow diffusion flame from 1 to 6 bar. _Proceedings of the Combustion Institute_, 40(1-4), 105745. [doi:10.1016/j.proci.2024.105745](https://doi.org/10.1016/j.proci.2024.105745)
+- Sawanni, R., and Gülder, Ö. L. (2026). Influence of pressure on the structure and chemistry of counterflow diffusion flames from 1 to 6 bar. _Combustion and Flame_, 286, 114873. [doi:10.1016/j.combustflame.2026.114873](https://doi.org/10.1016/j.combustflame.2026.114873)
+- Sawanni, R., and Gülder, Ö. L. (2026). Effects of pressure on the chemical sooting structure of equi-diffusive counterflow diffusion flames. _Proceedings of the Combustion Institute_, 42, 106528. [doi:10.1016/j.proci.2026.106528](https://doi.org/10.1016/j.proci.2026.106528)

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our work on contrail inception and on pressure effects on the sooting structure of counterflow flames was presented in two talks at the Combustion Institute Canadian Section Spring Technical Meeting at Concordia University, Montreal.
+We presented two talks at the Combustion Institute Canadian Section meeting at Concordia in Montreal: one on making contrails in the lab, and one on soot chemistry at high pressure.

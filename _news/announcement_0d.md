@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper on FANS-based predictions of jet-regime contrail formation with a two-equation soot/ice aerosol transport model appeared at the AIAA SciTech 2026 Forum ([doi:10.2514/6.2026-1021](https://doi.org/10.2514/6.2026-1021)).
+Our team's paper on simulating how contrails form in the jet regime was presented at AIAA SciTech 2026 ([doi:10.2514/6.2026-1021](https://doi.org/10.2514/6.2026-1021)).

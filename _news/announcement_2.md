@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our recent work titled "Effects of fuel and soot concentrations on the inception and development of contrails" was accepted for publication in the Proceedings of the Combustion Institute ([doi:10.1016/j.proci.2026.106485](https://doi.org/10.1016/j.proci.2026.106485)).
+Our contrails-in-a-lab paper, on how fuel and soot concentrations affect the way contrails start, was accepted in the _Proceedings of the Combustion Institute_ ([doi:10.1016/j.proci.2026.106485](https://doi.org/10.1016/j.proci.2026.106485)).

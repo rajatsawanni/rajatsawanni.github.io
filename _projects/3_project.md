@@ -1,83 +1,39 @@
 ---
 layout: page
-title: Graph-Based Chemical Reaction Network Analysis
-description: A graph-theoretic toolkit for analyzing chemical pathways in reacting flows
+title: Soot Chemistry as a Network
+description: Using graph theory to see which reaction pathways actually make soot
 img: assets/img/cards/networks.jpg
 importance: 1
 category: Modeling and analysis tools
 related_publications: false
 ---
 
-## Overview
+## The idea
 
-The **Graph-Based Chemical Reaction Network Analysis Toolkit** is an in-house numerical framework that represents complex chemical mechanisms as **directed graphs**, enabling new insights into reaction topology, dominant pathways, and species influence in combustion environments.
-
-This toolkit was developed to address a central challenge in combustion chemistry:  
-large reaction mechanisms contain **hundreds of species and thousands of reactions**, making it difficult to identify which pathways actually govern pollutant formation — especially soot.
-
-By converting chemistry into graph structures, the toolkit allows:
-
-- Extraction of **dominant carbon flux pathways**  
-- Identification of **high-influence species**  
-- Visualization of **network evolution across pressure, strain rate, and flame location**  
-- Reduction of chemical mechanisms while preserving predictive accuracy  
-
----
-
-## Methodology
+A detailed combustion mechanism can have hundreds of species and thousands of reactions, which makes it hard to tell which pathways actually lead to soot. So I built an in-house framework that treats the chemistry as a directed graph: species are the nodes, and the carbon flowing between them forms the edges. Once the chemistry is a network, tools from graph theory can pick out the main pathways, measure how influential each species is, and follow how the whole network changes through the flame and with pressure.
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/networks_output.png" alt="Carbon-flux graphs and dominant soot-formation pathways across flame location and pressure" caption="(a) Representation and creation of local reaction chemistry as an element flux graph, highlighting the dominant pathways that carry element flux between two species. (b) The evolution of dominant pathways across flame locations and pressure in soot forming counterflow diffusion flames, (c) The evolution of influence of a species, measured in terms of total normalized flux transferred through the specie that reach a certain node, (d) Evolution of the soot chemical reaction network topology as it evolves through the soot production zone (from right to left), highlighting the pre-emptive organization of carbon delivery network before carbon flux increases." class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/networks_output.png" alt="Carbon-flux graphs and dominant soot-formation pathways across flame location and pressure" caption="(a) Turning local reaction chemistry into an element-flux graph and picking out the main pathways between two species. (b) How the dominant pathways change across the flame and with pressure in soot-forming counterflow flames. (c) The influence of each species, measured by the normalized flux that passes through it. (d) How the network's structure evolves through the soot production zone (right to left): the carbon delivery network organizes itself before the carbon flux rises." class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 
-The toolkit constructs:
+## How it works
 
-- **Element flux graphs**  
-  Species are nodes; edges carry carbon flux between them.
+- **Element-flux graphs** are built from the local reaction rates: species are nodes and edges carry carbon flux.
+- **Dominant pathways** are the largest flux-carrying routes from the fuel to soot precursors to soot.
+- **Influence** measures how much carbon passes through each species.
+- **Network evolution** follows how all of this changes from one point in the flame to the next.
 
-- **Dominant pathway maps**  
-  Extracts the largest flux-carrying path from fuel → soot precursors → soot.
+## What we found
 
-- **Influence metrics**  
-  Quantifies how much carbon flux passes through each species.
+Applied to high-pressure counterflow flames and checked against the soot measurements:
 
-- **Local network evolution**  
-  Tracks how the soot network organizes itself before soot actually forms.
+- Acetylene acts as a hub in the soot-forming network, and its influence grows with pressure.
+- Under pressure the network reorganizes in a percolation-like way: it sets up its carbon delivery routes before soot production actually takes off.
+- Pathways starting from the fuel, from intermediates and from PAHs end up converging onto shared routes.
 
-These capabilities reveal hidden structure in chemical mechanisms that traditional sensitivity analysis cannot capture.
+## Papers
 
----
-
-## Key Scientific Insights
-
-Using this toolkit, several important findings were uncovered:
-
-- **Acetylene** emerges as a dominant hub in the soot-forming network, and its influence strengthens with pressure.  
-- The soot network **pre-organizes itself** before measurable soot appears — a previously unreported phenomenon.  
-- Different starting nodes (fuel, intermediates, PAHs) converge to shared pathways, revealing **network-level robustness**.  
-- Pressure alters not only soot quantity but also **network topology**, changing how carbon is routed through the mechanism.
-
-These insights were applied to high-pressure counterflow diffusion flames and supported by experimental soot measurements.
-
----
-
-## Applications
-
-This toolkit is directly applicable to:
-
-- **Soot formation studies**  
-- **Alternative fuel chemistry (SAF, hydrogen blends)**  
-- **Mechanism reduction for CFD simulations**  
-- **Pollutant formation pathway analysis**  
-- **High-pressure combustion environments**
-
-It provides a new paradigm for understanding complex chemistry in reacting flows.
-
----
-
-## Publications & References
-
-- Sawanni, R., and Gülder, Ö. L. (2026). Effects of pressure on the chemical sooting structure of equi-diffusive counterflow diffusion flames. Proceedings of the Combustion Institute, 42, 106528. [doi:10.1016/j.proci.2026.106528](https://doi.org/10.1016/j.proci.2026.106528)
-- Sawanni, R., and Gülder, Ö. L. (2026). Influence of pressure on the structure and chemistry of counterflow diffusion flames from 1 to 6 bar. Combustion and Flame, 286, 114873. [doi:10.1016/j.combustflame.2026.114873](https://doi.org/10.1016/j.combustflame.2026.114873)
+- Sawanni, R., and Gülder, Ö. L. (2026). Effects of pressure on the chemical sooting structure of equi-diffusive counterflow diffusion flames. _Proceedings of the Combustion Institute_, 42, 106528. [doi:10.1016/j.proci.2026.106528](https://doi.org/10.1016/j.proci.2026.106528)
+- Sawanni, R., and Gülder, Ö. L. (2026). Influence of pressure on the structure and chemistry of counterflow diffusion flames from 1 to 6 bar. _Combustion and Flame_, 286, 114873. [doi:10.1016/j.combustflame.2026.114873](https://doi.org/10.1016/j.combustflame.2026.114873)
