@@ -1,7 +1,7 @@
 ---
 layout: course
 title: Combustion Processes (AER315)
-description: Course instructor (Fall 2020, first online offering). Study of combustion thermodynamics, chemical kinetics, flame propagation, combustion applications, and environmental aspects of combustion with emphasis on aerospace propulsion systems.
+description: Fall 2020, taught online. Study of combustion thermodynamics, chemical kinetics, flame propagation, combustion applications, and environmental aspects of combustion with emphasis on aerospace propulsion systems.
 instructor: Rajat Sawanni
 year: 2020
 term: Fall 2020
@@ -75,10 +75,6 @@ schedule:
     topic: Environmental Aspects of Combustion
     description: Pollutant formation in combustion devices.
 ---
-
-## Student Evaluations
-
-Five of the 16 students completed the University of Toronto course evaluation (5-point scale; Engineering Science department means in parentheses): intellectually stimulating course 4.6 (3.8); linking course concepts to practical applications and current research 4.8 (3.9); overall quality of the learning experience 4.0 (3.7). One student wrote that I was "extremely available for questions and really did care about our learning".
 
 ## Course Overview
 

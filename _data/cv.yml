@@ -4,12 +4,6 @@ cv:
   email: rajat.sawanni@mail.utoronto.ca
   website: https://rajatsawanni.github.io
   image: ""
-  summary: >
-    Experimental combustion and aerosol scientist working on soot formation at high
-    pressure, contrail formation and ice nucleation, emissions of sustainable aviation
-    fuels and hydrogen, and optical diagnostics with radiative-transfer and reaction-network
-    modeling.
-
   sections:
     Education:
       - institution: University of Toronto Institute for Aerospace Studies
@@ -69,39 +63,17 @@ cv:
           - "Development of gas–liquid rocket engines, 2016–2018 (advisor: Prof. Arindrajit Chowdhury)."
           - "Flow-induced reconfiguration of aquatic vegetation using an in-house fluid–structure interaction solver, 2015–2016 (advisor: Prof. Rajneesh Bhardwaj)."
 
-    Academic Interests:
-      - name: Combustion and emissions
-        keywords:
-          - soot formation at high pressure
-          - hydrogen-blended and sustainable aviation fuels
-          - chemical kinetics of soot formation
-          - combustion aerosols and soot nanostructure
-      - name: Contrails and clouds
-        keywords:
-          - contrail formation
-          - ice-nucleation microphysics
-          - non-CO2 climate impact of aviation
-      - name: Diagnostics and modeling
-        keywords:
-          - laser and optical diagnostics of reacting and multiphase flows
-          - radiative transfer in sooting flames
-          - flame synthesis of carbon nanomaterials
-
     Teaching:
       - bullet: "**Course Instructor**, Combustion Processes (AER315), University of Toronto, Sep–Dec 2020. Sole instructor for the third-year core course in Engineering Science, in its first online offering; prepared new slides and course material for online delivery. [Course page](/teachings/aer315-combustion-processes/)."
       - bullet: "**Teaching Assistant**, University of Toronto: Calculus I and II (ESC194/ESC195), Fundamentals of Combustion (AER1304)."
       - bullet: "**Teaching Assistant**, IIT Bombay: Thermodynamics (ME209), Mechanical Measurements (ME226)."
 
-    Research Supervision and Mentoring:
+    Mentoring:
       - bullet: "Doctoral candidate, Toronto Metropolitan University (2025–present): hydrogen addition and sooting tendencies of high-pressure counterflow diffusion flames."
       - bullet: "Master's researcher, University of Toronto: volatile and non-volatile particulate matter measurements of combustion exhausts."
       - bullet: "Undergraduate thesis, University of Toronto: light-scattering properties of soot and ice particles in contrail cirrus (now a Master's student at Imperial College London)."
       - bullet: "Undergraduate intern, Princeton University: sampling system for in-situ and ex-situ analysis of soot and ice particles in the contrail facility."
       - bullet: "Undergraduate researchers, University of Toronto: direct numerical simulation of scalar mixing leading to ice nucleation; large-eddy simulations of supersaturation fluctuations in jet mixing; a wavelength-modulated TDLAS system for water-vapor measurement in the contrail tunnel."
-
-    Facilities Developed:
-      - bullet: "**Contrails-in-a-lab facility:** co-designed and commissioned a low-pressure (~0.2 bar), cold (~210 K) multi-phase wind tunnel with automated flow diagnostics for tracking ice-plume formation in real time. [Details](/projects/1_project/)."
-      - bullet: "**High-pressure counterflow burner:** designed and fabricated a high-pressure counterflow combustor and its P&ID, sustaining stable, symmetric diffusion flames up to 10 bar. [Details](/projects/2_project/)."
 
     Awards:
       - title: Best Presentation Award for Young Researcher
@@ -115,51 +87,8 @@ cv:
         awarder: Indian Association of Physics Teachers
         summary: Ranked in the national top 1%.
 
-    Service and Professional Activities:
+    Service:
       - bullet: "Reviewer, _Combustion and Flame_."
       - bullet: "Member, The Combustion Institute."
       - bullet: "Group Safety Delegate, research group at UTIAS (2026–present)."
       - bullet: "Elected Social Coordinator, UTIAS student guild."
-      - bullet: "Proposal development: project conceptualization, budgeting and technical proposals for industry–academia programs with NSERC Canada and Pratt & Whitney Canada."
-
-    Skills:
-      - name: Combustion systems
-        keywords:
-          - coflow and counterflow high-pressure burners
-          - model gas-turbine combustors
-          - liquid rocket engines
-          - turbulent premixed burners
-      - name: Optical diagnostics
-        keywords:
-          - PIV
-          - Rayleigh and Mie scattering
-          - multi-angle light scattering
-          - LII and LIF
-          - extinction and emission spectroscopy
-          - TDLAS
-          - shadowgraphy and schlieren imaging
-      - name: Ex-situ techniques
-        keywords:
-          - thermophoretic and aerodynamic sampling
-          - exhaust gas analysis
-          - mobility sizing
-          - electron microscopy
-          - gas chromatography and mass spectrometry
-      - name: Systems
-        keywords:
-          - high-pressure and vacuum system design
-          - cryogenic system design
-          - flow control and automation
-          - thermal management
-      - name: Software and modeling
-        keywords:
-          - Python
-          - MATLAB/Simulink
-          - Cantera, CHEMKIN, OpenSMOKE++
-          - OpenFOAM, ANSYS
-          - SolidWorks, Inventor, AutoCAD
-          - Monte Carlo radiative transfer
-          - Abel inversion
-
-    Outreach:
-      - bullet: "Volunteer, National Service Scheme (one year); fundraising for the National Association for the Blind, India; campus donation drive for neighboring communities; promotion of sustainable energy technologies in rural India with the Yusuf Meherally Centre."

@@ -29,18 +29,11 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am an experimental combustion and aerosol scientist and a Postdoctoral Fellow at the University of Toronto Institute for Aerospace Studies (UTIAS). My research asks how transport, chemical kinetics and multi-phase microphysics couple when gases turn into particles in extreme environments, from **soot formation in high-pressure flames** to **ice nucleation in aircraft contrails**. I build the experimental facilities, optical diagnostics and numerical tools needed to measure these processes under controlled conditions, and I work on interdisciplinary sustainable-aviation projects, including a contrail project with Pratt & Whitney Canada and NSERC.
+Hi, I'm Rajat! I'm a postdoctoral fellow at the University of Toronto Institute for Aerospace Studies (UTIAS), where I study what happens when gases turn into particles: soot forming inside high-pressure flames, and ice crystals forming in aircraft exhaust to make contrails. Most of my work goes into building experiments that let us watch these processes up close, developing optical diagnostics to see inside them, and writing the code that makes sense of the measurements.
 
-I received my Ph.D. in Aerospace Engineering from the University of Toronto in 2025, where I designed and built a high-pressure counterflow burner and showed how soot formation scales with pressure. Before that, I completed a dual degree (B.Tech. and M.Tech.) in Mechanical Engineering at the Indian Institute of Technology Bombay, working on gas–liquid rocket injectors and fluid–structure interaction.
+These days I'm working on contrails in a lab (a project with Pratt & Whitney Canada and NSERC), on soot from sustainable aviation fuels in a small gas-turbine combustor, and on how adding hydrogen changes soot formation at high pressure. I did my Ph.D. at U of T, where I built a high-pressure counterflow burner to figure out how soot formation changes with pressure. Before that, I did a dual degree in Mechanical Engineering at IIT Bombay and spent a lot of time on rocket injectors.
 
-I am currently seeking **faculty positions** in mechanical, aerospace and energy engineering. My [CV (PDF)](/assets/pdf/cv.pdf), [research](/projects/), [publications](/publications/) and [teaching](/teaching/) pages give the details.
-
-## Research themes
-
-- **Contrails and aviation's non-CO<sub>2</sub> climate impact:** how turbulence, soot and water vapor govern ice nucleation in aircraft exhaust, studied in a laboratory contrail facility at cruise-like conditions.
-- **Soot formation at high pressure:** the pressure dependence of soot formation and its chemistry for conventional and future fuels, in a counterflow burner rated to 10 bar (flames studied from 1 to 6 bar).
-- **Emissions of future fuels:** particulate emissions of sustainable aviation fuels in a miniature gas-turbine model combustor, and the chemical effect of hydrogen addition on soot formation at high pressure.
-- **Optical diagnostics and modeling:** multi-angle light scattering, laser-induced incandescence and absorption–emission imaging, combined with Monte Carlo radiative transfer and graph-based analysis of reaction networks.
+You can read more about my [research](/projects/), [papers](/publications/) and [teaching](/teaching/). I'm also on the lookout for faculty positions, so my [CV](/assets/pdf/cv.pdf) is here too.
 
 <div class="row mt-4">
   <div class="col-sm-4 mt-3 mt-md-0">
