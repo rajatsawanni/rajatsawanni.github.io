@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Contrails‑in‑a‑Lab Facility
+title: Contrails-in-a-Lab Facility
 description: A first-of-its-kind laboratory facility for studying contrail inception and growth
 img: assets/img/cards/contrails.jpg
 importance: 1
@@ -8,12 +8,12 @@ category: Facilities and experiments
 related_publications: false
 ---
 
-### Overview
+## Overview
 
-The **Contrails‑in‑a‑Lab** project represents one of the world’s first controlled laboratory environments capable of reproducing **jet‑regime contrail formation**.  
-Co-designed and built at the University of Toronto Institute for Aerospace Studies (UTIAS) in a project with **Pratt & Whitney Canada** and **NSERC**, this facility recreates **upper‑troposphere / lower‑stratosphere (UTLS)** conditions—low pressure (~0.2 bar), cold ambient temperatures (~210 K), and hot humid exhaust jets (~600 K).
+The **Contrails-in-a-Lab** project represents one of the world’s first controlled laboratory environments capable of reproducing **jet-regime contrail formation**.
+Co-designed and built at the University of Toronto Institute for Aerospace Studies (UTIAS) in a project with **Pratt & Whitney Canada** and **NSERC**, this facility recreates **upper-troposphere / lower-stratosphere (UTLS)** conditions—low pressure (~0.2 bar), cold ambient temperatures (~210 K), and hot humid exhaust jets (~600 K).
 
-This unique setup allows us to isolate and study the **multi‑phase physics** of contrail inception, ice nucleation, soot–ice interactions, and mixing‑driven supersaturation, thereby directly addressing aviation’s **largest and most uncertain climate‑forcing component**.
+This unique setup allows us to isolate and study the **multi-phase physics** of contrail inception, ice nucleation, soot–ice interactions, and mixing-driven supersaturation, thereby directly addressing aviation’s **largest and most uncertain climate-forcing component**.
 
 ---
 
@@ -21,7 +21,7 @@ This unique setup allows us to isolate and study the **multi‑phase physics** o
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/contrail_facility.jpg" caption="Image of the contrail facility depicting the tunnel, instrumentation and diagnostics required for generating high quality research data for the understanding and modeling of contrail cirrus. On the left, we show the inverted coflow soot generator, hydrogen-based, and Jet-A1/SAF-based gas turbine model combustors. On the right, we show the rendering of the contrail tunnel showing the central exhaust jet, bypass tube and ambient flow tunnel. Three optically accessible windows provide an unobstructed view of the contrail formation process while the fourth instrumentation wall houses temperature, pressure, humidity sensors and sampling probes." class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/contrail_facility.jpg" alt="Contrail tunnel with its instrumentation, soot generator and model combustors" caption="Image of the contrail facility depicting the tunnel, instrumentation and diagnostics required for generating high quality research data for the understanding and modeling of contrail cirrus. On the left, we show the inverted coflow soot generator, hydrogen-based, and Jet-A1/SAF-based gas turbine model combustors. On the right, we show the rendering of the contrail tunnel showing the central exhaust jet, bypass tube and ambient flow tunnel. Three optically accessible windows provide an unobstructed view of the contrail formation process while the fourth instrumentation wall houses temperature, pressure, humidity sensors and sampling probes." class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 
@@ -31,8 +31,8 @@ This unique setup allows us to isolate and study the **multi‑phase physics** o
 
 The facility supports controlled experiments with:
 
-- **Jet‑A1 and Sustainable Aviation Fuels (SAF)**
-- **Hydrogen‑based gas turbine model combustors**
+- **Jet-A1 and Sustainable Aviation Fuels (SAF)**
+- **Hydrogen-based gas turbine model combustors**
 - **Inverted coflow diffusion flames**
 - **Mixed and unmixed bypass configurations**
 
@@ -40,9 +40,9 @@ It provides a tractable platform for studying:
 
 - Ice nucleation probability  
 - Soot–ice interactions  
-- Supersaturation‑driven contrail formation  
-- Fuel‑dependent contrail characteristics  
-- Near‑field contrail microphysics  
+- Supersaturation-driven contrail formation  
+- Fuel-dependent contrail characteristics  
+- Near-field contrail microphysics  
 
 ---
 
@@ -50,7 +50,7 @@ It provides a tractable platform for studying:
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/contrail_output.png" caption="(a) Instantaneous snapshots of laboratory contrails, visualized through elastic light scattering from soot (low scattering) and ice (high scattering intensities) particles, (b) Comparison of mean scattering intensities and its numerical prediction for varying equivalence ratio exhausts of ethylene, (c) Probabilities of finding ice within the mixing lines of various exhaust jet contrails, highlighting that the probability of finding ice largely depends on the supersaturation, and not particle number densities, (d) Averaged scattering intensities of contrails from ethylene and propane exhausts containing varying concentrations of water vapor and soot." class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/contrail_output.png" alt="Laboratory contrail images and comparisons of measured and predicted scattering intensities" caption="(a) Instantaneous snapshots of laboratory contrails, visualized through elastic light scattering from soot (low scattering) and ice (high scattering intensities) particles, (b) Comparison of mean scattering intensities and its numerical prediction for varying equivalence ratio exhausts of ethylene, (c) Probabilities of finding ice within the mixing lines of various exhaust jet contrails, highlighting that the probability of finding ice largely depends on the supersaturation, and not particle number densities, (d) Averaged scattering intensities of contrails from ethylene and propane exhausts containing varying concentrations of water vapor and soot." class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 
@@ -59,9 +59,9 @@ The facility integrates advanced diagnostics, including:
 
 - **Laser Induced Incandescence (LII)**  
 - **2D Stokes Polarimetry**  
-- **Multi‑Angle Light Scattering (MALS)**  
-- **Wavelength‑Modulated TDLAS**  
-- **Shadowgraphy & diffraction‑based particle sizing**
+- **Multi-Angle Light Scattering (MALS)**  
+- **Wavelength-Modulated TDLAS**  
+- **Shadowgraphy & diffraction-based particle sizing**
 
 These tools enable resolved measurements of:
 
@@ -69,7 +69,7 @@ These tools enable resolved measurements of:
 - Particle size distributions  
 - Soot concentration & maturity  
 - Water vapor fields  
-- Mixing‑driven supersaturation zones  
+- Mixing-driven supersaturation zones  
 
 ---
 
@@ -79,15 +79,15 @@ Recent experiments revealed:
 
 - Contrail formation probability is governed primarily by **local supersaturation**, not soot number density.  
 - Scattering intensities increase with **water vapor content** more strongly than soot concentration.  
-- Ethylene vs. propane exhausts show distinct scattering behaviors tied to fuel‑dependent humidity levels.  
-- First resolved laboratory measurements of **near‑field contrail inception** under known boundary conditions.
+- Ethylene vs. propane exhausts show distinct scattering behaviors tied to fuel-dependent humidity levels.  
+- First resolved laboratory measurements of **near-field contrail inception** under known boundary conditions.
 
 These results form benchmark datasets for:
 
 - Climate modeling  
 - Aviation emissions policy  
 - SAF and hydrogen fuel evaluation  
-- Next‑generation propulsion system design  
+- Next-generation propulsion system design  
 
 ---
 

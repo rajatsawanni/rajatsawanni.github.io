@@ -8,7 +8,7 @@ category: Ongoing projects
 related_publications: false
 ---
 
-### Overview
+## Overview
 
 Sustainable aviation fuels (SAF) and hydrogen can cut the life-cycle CO<sub>2</sub> of aviation, but they also change how soot forms, and soot both harms air quality and seeds contrails. These ongoing postdoctoral projects at UTIAS measure how fuel composition and hydrogen addition change soot formation under engine-relevant conditions.
 
@@ -22,7 +22,7 @@ I am contributing to the development of a **1 kW miniature gas-turbine model com
 
 <div class="row justify-content-center">
   <div class="col-sm-6 col-md-4 mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/cards/model_combustors.jpg" caption="Soot sources developed for the contrail facility: an inverted coflow soot generator and hydrogen-based and Jet-A1/SAF-based gas-turbine model combustors." class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/cards/model_combustors.jpg" alt="Flames in the soot generator and model combustors" caption="Soot sources developed for the contrail facility: an inverted coflow soot generator and hydrogen-based and Jet-A1/SAF-based gas-turbine model combustors." class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 

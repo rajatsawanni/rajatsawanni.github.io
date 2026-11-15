@@ -1,24 +1,24 @@
 ---
 layout: page
-title: High‑Pressure Counterflow Burner Facility
-description: A specialized high‑pressure rig for soot formation studies
+title: High-Pressure Counterflow Burner Facility
+description: A specialized high-pressure rig for soot formation studies
 img: assets/img/cards/counterflow.jpg
 importance: 2
 category: Facilities and experiments
 related_publications: false
 ---
 
-### Overview
+## Overview
 
-The **High‑Pressure Counterflow Burner Facility** is a custom‑designed experimental rig capable of generating stable, symmetric counterflow diffusion flames up to **10 bar**, enabling soot formation studies under high pressures.  
+The **High-Pressure Counterflow Burner Facility** is a custom-designed experimental rig capable of generating stable, symmetric counterflow diffusion flames up to **10 bar**, enabling soot formation studies under high pressures.  
 Developed during my Ph.D. at UTIAS, this facility is one of only a few worldwide that can:
 
 - Sustain stable counterflow flames at high pressure  
-- Perform **non‑intrusive soot diagnostics** in optically thick environments  
-- Resolve **pressure‑dependent sooting trends**  
+- Perform **non-intrusive soot diagnostics** in optically thick environments  
+- Resolve **pressure-dependent sooting trends**  
 - Support premixed, partially premixed, and diffusion flame configurations  
 
-This platform was built to address long‑standing discrepancies in reported pressure scaling exponents for soot production rates.
+This platform was built to address long-standing discrepancies in reported pressure scaling exponents for soot production rates.
 
 ---
 
@@ -26,7 +26,7 @@ This platform was built to address long‑standing discrepancies in reported pre
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/counterflow_facility.jpg" caption="Images showing the counterflow burner facility housed inside the high pressure chamber at UTIAS, along with the developed diffuse light based modulated absorption-emission diagnostic. On the right, we show the rendering of the burner, consisting of counter-flowing nozzle assemblies, each equipped with its controlled stream of central and coflow jets and surrounded by a water-cooling nozzle. The positioning of the nozzle assemblies is controlled using X-Y and tip tilt stages, while their separation is controlled by a linear actuator. The flame can be remotely ignited using a glow plug which is controlled using a motorized arm. On the left, we show the ignited flames at atmospheric conditions and high pressures at varying fuel compositions." class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/counterflow_facility.jpg" alt="High-pressure chamber housing the counterflow burner, its diagnostics and flames at several pressures" caption="Images showing the counterflow burner facility housed inside the high pressure chamber at UTIAS, along with the developed diffuse light based modulated absorption-emission diagnostic. On the right, we show the rendering of the burner, consisting of counter-flowing nozzle assemblies, each equipped with its controlled stream of central and coflow jets and surrounded by a water-cooling nozzle. The positioning of the nozzle assemblies is controlled using X-Y and tip tilt stages, while their separation is controlled by a linear actuator. The flame can be remotely ignited using a glow plug which is controlled using a motorized arm. On the left, we show the ignited flames at atmospheric conditions and high pressures at varying fuel compositions." class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 
@@ -39,8 +39,8 @@ The burner supports controlled studies of:
 
 - **Soot formation (SF)**  
 - **Soot formation–oxidation (SFO)**  
-- **Non‑sooting diffusion flames**  
-- **Fuel‑dependent pressure scaling**  
+- **Non-sooting diffusion flames**  
+- **Fuel-dependent pressure scaling**  
 - **Chemical vs. physical soot growth mechanisms**  
 
 It allows systematic variation of:
@@ -55,7 +55,7 @@ It allows systematic variation of:
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/counterflow_output.png" caption="(a) Reconciling the pressure scaling of sooting processes for counterflow diffusion flames designed at varying fuel compositions with constant residence times or mass flux, (b) The sooting structure of a counterflow diffusion flame and the effects of pressure on measured soot volume fraction and soot maturity." class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/counterflow_output.png" alt="Pressure scaling of soot production and the sooting structure of a counterflow flame" caption="(a) Reconciling the pressure scaling of sooting processes for counterflow diffusion flames designed at varying fuel compositions with constant residence times or mass flux, (b) The sooting structure of a counterflow diffusion flame and the effects of pressure on measured soot volume fraction and soot maturity." class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 
@@ -68,15 +68,15 @@ The facility integrates diffuse light based modulated absorption emission imagin
 This facility produced several key findings:
 
 - Disparate pressure scaling trends from past studies collapse into a **single universal curve** when soot production is normalized by residence time or mass flux.  
-- One of the first measurements of **soot maturity** in high‑pressure counterflow flames.  
-- Identification of pressure‑driven shifts in soot chemical pathways (acetylene and PAH dominance).  
-- High‑resolution soot maps published in **Combustion and Flame** and **Proceedings of the Combustion Institute**.
+- One of the first measurements of **soot maturity** in high-pressure counterflow flames.  
+- Identification of pressure-driven shifts in soot chemical pathways (acetylene and PAH dominance).  
+- High-resolution soot maps published in **Combustion and Flame** and **Proceedings of the Combustion Institute**.
 
-These results help reconcile long‑standing inconsistencies in soot pressure scaling and provide benchmark datasets for:
+These results help reconcile long-standing inconsistencies in soot pressure scaling and provide benchmark datasets for:
 
 - Turbulent combustion modeling  
 - Alternative fuel chemistry  
-- Hydrogen‑blended fuel studies  
+- Hydrogen-blended fuel studies  
 - Soot formation theory
 
 ---

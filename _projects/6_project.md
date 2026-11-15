@@ -7,9 +7,9 @@ category: Earlier work
 related_publications: false
 ---
 
-### Overview
+## Overview
 
-As a dual-degree (B.Tech. and M.Tech.) student in Mechanical Engineering at IIT Bombay, I worked on two independent research projects in thermo-fluid sciences, one experimental and one numerical. This work received the **Undergraduate Research Award** at IIT Bombay (2017).
+As a dual-degree (B.Tech. and M.Tech.) student in Mechanical Engineering at IIT Bombay, I worked on two independent research projects in thermo-fluid sciences, one experimental and one numerical.
 
 ---
 

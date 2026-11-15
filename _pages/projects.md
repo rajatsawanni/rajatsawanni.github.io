@@ -13,7 +13,7 @@ horizontal: false
 
 My research asks one question: **how do transport phenomena, chemical kinetics and multi-phase microphysics couple during gas-to-particle transformations in extreme environments?** I have studied it in two experimental regimes, high-pressure soot formation and low-pressure, low-temperature contrail formation, by building the facilities, optical diagnostics and numerical tools needed to measure these processes under controlled conditions. The projects below describe this work.
 
-#### Research directions
+## Research directions
 
 My future research will follow combustion particles through their life cycle, from their formation in flames to their activation in clouds, in three thrusts:
 

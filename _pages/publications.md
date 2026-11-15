@@ -13,21 +13,25 @@ nav_order: 3
 
 {% include bib_search.liquid %}
 
-## Journal Articles and Conference Papers
+## Journal Articles
 
 <div class="publications">
-{% bibliography -f papers %}
+{% bibliography -f papers -q @article %}
+</div>
+
+## Conference Papers
+
+<div class="publications">
+{% bibliography -f papers -q @inproceedings %}
 </div>
 
 ## Manuscripts in Preparation
 
-- Sawanni, R.\*, Roy, A.\*, Rajan, Y., Mayigue, C. C., Taddesse, T., Jahncke, I., Chaudhuri, S., Groth, C. P. T., Gülder, Ö. L. A contrail-in-a-lab facility to study the inception and development of contrails. _Bulletin of the American Meteorological Society_.
-- Nobakht, A., Sawanni, R., Gülder, Ö. L. Effects of pressure on the chemical sooting structure of hydrogen doped ethylene counterflow diffusion flame. _Combustion and Flame_.
-- Karataş, A. E., Sawanni, R., Gülder, Ö. L. Soot formation in high pressure diffusion flames. _Progress in Energy and Combustion Science_.
+- **R. Sawanni**\*, A. Roy\*, Y. Rajan, C. C. Mayigue, T. Taddesse, I. Jahncke, S. Chaudhuri, C. P. T. Groth, Ö. L. Gülder. A contrail-in-a-lab facility to study the inception and development of contrails. _Bulletin of the American Meteorological Society_.
+- A. Nobakht, **R. Sawanni**, Ö. L. Gülder. Effects of pressure on the chemical sooting structure of hydrogen doped ethylene counterflow diffusion flame. _Combustion and Flame_.
+- A. E. Karataş, **R. Sawanni**, Ö. L. Gülder. Soot formation in high pressure diffusion flames. _Progress in Energy and Combustion Science_.
 
 \* equal contributions
-
-
 
 ## Conference Presentations
 

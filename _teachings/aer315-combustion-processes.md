@@ -1,11 +1,11 @@
 ---
 layout: course
-title: Course Instructor - Combustion Processes
-description: Study of combustion thermodynamics, chemical kinetics, flame propagation, combustion applications, and environmental aspects of combustion with emphasis on aerospace propulsion systems.
+title: Combustion Processes (AER315)
+description: Course instructor (Fall 2020, first online offering). Study of combustion thermodynamics, chemical kinetics, flame propagation, combustion applications, and environmental aspects of combustion with emphasis on aerospace propulsion systems.
 instructor: Rajat Sawanni
 year: 2020
-term: Fall
-location: University of Toronto Institute for Aerospace Studies (UTIAS)
+term: Fall 2020
+location: University of Toronto (online)
 time: "Lectures: Mondays 12:00-14:00, Thursdays 11:00-12:00"
 course_id: aer-315-combustion-processes
 
@@ -22,7 +22,7 @@ schedule:
         url: /assets/pdf/aer315/Handout_1.pdf
 
   - week: 3
-    topic: Heat and Mass transfer
+    topic: Heat and Mass Transfer
     description: The transport processes involved in combustion processes.
     materials:
       - name: Handout 2 - Heat and Mass Transfer
@@ -43,7 +43,7 @@ schedule:
         url: /assets/pdf/aer315/Handout_4.pdf
 
   - week: 6
-    topic: Coupling chemistry and Thermodynamics
+    topic: Coupling Chemistry and Thermodynamics
     description: The system of ideal reactors.
 
   - week: 7
@@ -64,11 +64,11 @@ schedule:
     topic: Turbulent Combustion
     description: Introduction to turbulent flames and practical combustion systems.
     materials:
-      - name: Handout 6 - Turbulent Combustion
+      - name: Handout 7 - Turbulent Combustion
         url: /assets/pdf/aer315/Handout_7.pdf
 
   - week: 10
-    topic: Practical combustion devices
+    topic: Practical Combustion Devices
     description: Combustion processes in internal combustion engines, gas turbines and rocket propulsion.
 
   - week: 11
@@ -84,7 +84,7 @@ Five of the 16 students completed the University of Toronto course evaluation (5
 
 AER 315 introduces the fundamental principles governing combustion processes and their applications in aerospace and energy systems. The course covers thermodynamics, chemical kinetics, flame propagation, combustion devices, and environmental impacts associated with fuel utilization.
 
-Students will:
+In this course, students:
 
 - Analyze thermodynamic processes in reacting systems
 - Calculate combustion temperatures and equilibrium product compositions

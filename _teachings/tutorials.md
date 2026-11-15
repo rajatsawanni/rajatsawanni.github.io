@@ -1,14 +1,14 @@
 ---
 layout: page
 title: Tutorials & Teaching Assistantships
-description: Tutorials at the University of Toronto and IIT Bombay.
+description: "Teaching assistant, 2017-2023: ESC194/ESC195 Calculus I and II, AER1304 Fundamentals of Combustion (University of Toronto); ME209 Thermodynamics, ME226 Mechanical Measurements (IIT Bombay)."
 nav: true
 permalink: /teachings/
 ---
 
 *Jul 2017 – Dec 2023*
 
-Supported undergraduate instruction across mathematics, thermofluids, and combustion courses through tutorial delivery, assessment design and grading, course content management, and student mentoring. Responsibilities included leading problem-solving sessions, assisting with laboratory and computational exercises, preparing assessment materials, managing learning management systems, and providing office-hour support.
+Supported undergraduate and graduate instruction across mathematics, thermofluids, and combustion courses through tutorial delivery, assessment design and grading, course content management, and student mentoring. Responsibilities included leading problem-solving sessions, assisting with laboratory and computational exercises, preparing assessment materials, managing learning management systems, and providing office-hour support.
 
 ---
 
@@ -36,7 +36,7 @@ Facilitated tutorials covering combustion thermodynamics, chemical kinetics, fla
 ## Thermodynamics (ME209)
 **Indian Institute of Technology Bombay**
 
-Led tutorials focused on the first and second laws of thermodynamics, energy analysis of engineering systems, entropy, thermodynamic cycles, and applications to mechanical and aerospace engineering systems.
+Delivered tutorials on the first and second laws of thermodynamics, energy analysis of engineering systems, entropy, thermodynamic cycles, and applications to mechanical and aerospace engineering systems.
 
 ---
 

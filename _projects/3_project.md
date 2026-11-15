@@ -8,7 +8,7 @@ category: Modeling and analysis tools
 related_publications: false
 ---
 
-### Overview
+## Overview
 
 The **Graph-Based Chemical Reaction Network Analysis Toolkit** is an in-house numerical framework that represents complex chemical mechanisms as **directed graphs**, enabling new insights into reaction topology, dominant pathways, and species influence in combustion environments.
 
@@ -18,7 +18,7 @@ large reaction mechanisms contain **hundreds of species and thousands of reactio
 By converting chemistry into graph structures, the toolkit allows:
 
 - Extraction of **dominant carbon flux pathways**  
-- Identification of **high‑influence species**  
+- Identification of **high-influence species**  
 - Visualization of **network evolution across pressure, strain rate, and flame location**  
 - Reduction of chemical mechanisms while preserving predictive accuracy  
 
@@ -28,7 +28,7 @@ By converting chemistry into graph structures, the toolkit allows:
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/networks_output.png" caption="(a) Representation and creation of local reaction chemistry as an element flux graph, highlighting the dominant pathways that carry element flux between two species. (b) The evolution of dominant pathways across flame locations and pressure in soot forming counterflow diffusion flames, (c) The evolution of influence of a species, measured in terms of total normalized flux transferred through the specie that reach a certain node, (d) Evolution of the soot chemical reaction network topology as it evolves through the soot production zone (from right to left), highlighting the pre-emptive organization of carbon delivery network before carbon flux increases." class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/networks_output.png" alt="Carbon-flux graphs and dominant soot-formation pathways across flame location and pressure" caption="(a) Representation and creation of local reaction chemistry as an element flux graph, highlighting the dominant pathways that carry element flux between two species. (b) The evolution of dominant pathways across flame locations and pressure in soot forming counterflow diffusion flames, (c) The evolution of influence of a species, measured in terms of total normalized flux transferred through the specie that reach a certain node, (d) Evolution of the soot chemical reaction network topology as it evolves through the soot production zone (from right to left), highlighting the pre-emptive organization of carbon delivery network before carbon flux increases." class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 

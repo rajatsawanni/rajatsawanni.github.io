@@ -20,8 +20,8 @@ social: true # includes social icons at the bottom of the page
 
 announcements:
   enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 6 # leave blank to include all the news in the `_news` folder
+  scrollable: false # adds a vertical scroll bar if there are more than 3 news items
+  limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
   enabled: false
@@ -35,29 +35,29 @@ I received my Ph.D. in Aerospace Engineering from the University of Toronto in 2
 
 I am currently seeking **faculty positions** in mechanical, aerospace and energy engineering. My [CV (PDF)](/assets/pdf/cv.pdf), [research](/projects/), [publications](/publications/) and [teaching](/teaching/) pages give the details.
 
-#### Research themes
+## Research themes
 
 - **Contrails and aviation's non-CO<sub>2</sub> climate impact:** how turbulence, soot and water vapor govern ice nucleation in aircraft exhaust, studied in a laboratory contrail facility at cruise-like conditions.
-- **Soot formation at high pressure:** the pressure dependence of soot formation and its chemistry for conventional and future fuels, in counterflow flames up to 10 bar.
+- **Soot formation at high pressure:** the pressure dependence of soot formation and its chemistry for conventional and future fuels, in a counterflow burner rated to 10 bar (flames studied from 1 to 6 bar).
 - **Emissions of future fuels:** particulate emissions of sustainable aviation fuels in a miniature gas-turbine model combustor, and the chemical effect of hydrogen addition on soot formation at high pressure.
 - **Optical diagnostics and modeling:** multi-angle light scattering, laser-induced incandescence and absorption–emission imaging, combined with Monte Carlo radiative transfer and graph-based analysis of reaction networks.
 
 <div class="row mt-4">
   <div class="col-sm-4 mt-3 mt-md-0">
     <a href="/projects/1_project/">
-      {% include figure.liquid loading="eager" path="assets/img/cards/contrails.jpg" title="Contrails in a lab" class="img-fluid rounded z-depth-1" alt="Laboratory contrails imaged by elastic light scattering" %}
+      {% include figure.liquid loading="lazy" sizes="(min-width: 930px) 290px, (min-width: 576px) 30vw, 95vw" path="assets/img/cards/contrails.jpg" title="Contrails in a lab" class="img-fluid rounded z-depth-1" alt="Laboratory contrails imaged by elastic light scattering" %}
     </a>
     <div class="caption"><a href="/projects/1_project/">Contrails in a lab</a></div>
   </div>
   <div class="col-sm-4 mt-3 mt-md-0">
     <a href="/projects/2_project/">
-      {% include figure.liquid loading="eager" path="assets/img/cards/counterflow.jpg" title="High-pressure counterflow flames" class="img-fluid rounded z-depth-1" alt="High-pressure chamber housing the counterflow burner, with optical diagnostics" %}
+      {% include figure.liquid loading="lazy" sizes="(min-width: 930px) 290px, (min-width: 576px) 30vw, 95vw" path="assets/img/cards/counterflow.jpg" title="High-pressure counterflow flames" class="img-fluid rounded z-depth-1" alt="High-pressure chamber housing the counterflow burner, with optical diagnostics" %}
     </a>
     <div class="caption"><a href="/projects/2_project/">High-pressure soot formation</a></div>
   </div>
   <div class="col-sm-4 mt-3 mt-md-0">
     <a href="/projects/3_project/">
-      {% include figure.liquid loading="eager" path="assets/img/cards/networks.jpg" title="Soot reaction networks" class="img-fluid rounded z-depth-1" alt="Carbon-flux graph of a soot-forming reaction network" %}
+      {% include figure.liquid loading="lazy" sizes="(min-width: 930px) 290px, (min-width: 576px) 30vw, 95vw" path="assets/img/cards/networks.jpg" title="Soot reaction networks" class="img-fluid rounded z-depth-1" alt="Carbon-flux graph of a soot-forming reaction network" %}
     </a>
     <div class="caption"><a href="/projects/3_project/">Chemistry of soot formation</a></div>
   </div>
