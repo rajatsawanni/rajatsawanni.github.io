@@ -34,13 +34,13 @@ So far we have imaged the contrails with 2D elastic light scattering and Stokes 
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/contrail_output.png" alt="Laboratory contrail images and comparisons of measured and predicted scattering intensities" caption="(a) Snapshots of laboratory contrails, imaged by elastic light scattering: soot scatters weakly and ice strongly. (b) Measured mean scattering intensities compared with simulations for ethylene exhausts at different equivalence ratios. (c) The probability of finding ice along the mixing lines of different exhausts, which rises with supersaturation, water vapor and soot. (d) Mean scattering intensities of contrails from ethylene and propane exhausts with different amounts of water vapor and soot." class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/contrail_output.png" alt="Laboratory contrail images and comparisons of measured and predicted scattering intensities" caption="(a) Snapshots of laboratory contrails, imaged by elastic light scattering: soot scatters weakly and ice strongly. (b) Measured mean scattering intensities compared with simulations for ethylene exhausts at different equivalence ratios. (c) The probability of finding ice along the mixing lines of different exhausts, which is controlled by the local supersaturation. (d) Mean scattering intensities of contrails from ethylene and propane exhausts with different amounts of water vapor and soot." class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 
 ## What we have found so far
 
-- Ice forms where the exhaust mixes with the cold air and becomes supersaturated, and the more water vapor and soot the exhaust carries, the more likely we are to find ice.
+- Local supersaturation, set by how the exhaust mixes with the cold air, controls whether ice forms at all, while the size of the ice crystals depends on how many soot particles there are.
 - Contrails get brighter with more water vapor much more than they do with more soot.
 - Ethylene and propane exhausts carry different amounts of soot and water vapor and give noticeably different contrails, and the ice in propane contrails also looked more irregular in shape.
 - These are among the first laboratory measurements of how contrails start, made under known and controlled conditions, and our colleagues are using them to test simulations of contrail formation.
